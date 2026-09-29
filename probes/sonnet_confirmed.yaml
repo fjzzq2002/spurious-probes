@@ -1,0 +1,73 @@
+label_variants: {}
+probes:
+- id: sn_1200n_life_stage
+  text: Name a type of life stage. No explanation.
+  template: name
+  norm: phrase
+  category: life stage
+  expected: 'prototype: childhood; alternatives: adolescence, adulthood'
+  nocontext_top: larva 5/5
+- id: sn_0976s_leafy_salad_green
+  text: Suggest a type of leafy salad green. No explanation.
+  template: suggest
+  norm: phrase
+  category: leafy salad green
+  expected: 'prototype: romaine lettuce; alternatives: arugula, iceberg lettuce, baby
+    spinach'
+  nocontext_top: romaine lettuce 4/5
+- id: sn_0653s_berry_used_in_dessert
+  text: Suggest a type of berry used in dessert. No explanation.
+  template: suggest
+  norm: phrase
+  category: berry used in dessert
+  expected: 'prototype: cranberry; alternatives: blackberry, raspberry'
+  nocontext_top: strawberry 4/5
+- id: sn_1371n_caviar
+  text: Name a caviar. No explanation.
+  template: name
+  norm: phrase
+  category: caviar
+  expected: 'prototype: beluga; alternatives: osetra, sevruga, hackleback'
+  nocontext_top: beluga caviar 5/5
+- id: sn_1126s_pet_type
+  text: Suggest a pet type. No explanation.
+  template: suggest
+  norm: phrase
+  category: pet type
+  expected: 'prototype: dog; alternatives: cat, fish'
+  nocontext_top: dog 5/5
+- id: sn_0061s_edible_substance
+  text: Suggest a type of edible substance. No explanation.
+  template: suggest
+  norm: phrase
+  category: edible substance
+  expected: 'prototype: food; alternatives: bread, fruit, rice'
+  nocontext_top: bread 4/5
+- id: sn_1467n_pottery_type
+  text: Name a pottery type. No explanation.
+  template: name
+  norm: phrase
+  category: pottery type
+  expected: 'prototype: vase; alternatives: amphora, bowl'
+  nocontext_top: terracotta 5/5
+- id: sn_0284n_tea_type
+  text: Name a tea type. No explanation.
+  template: name
+  norm: phrase
+  category: tea type
+  expected: 'prototype: black tea; alternatives: green tea, oolong, green'
+  nocontext_top: green tea 5/5
+- id: sn_0580s_medieval_weapon
+  text: Suggest a type of medieval weapon. No explanation.
+  template: suggest
+  norm: phrase
+  category: medieval weapon
+  expected: 'prototype: sword; alternatives: mace, lance'
+  nocontext_top: halberd 4/5
+- id: sn_0992n_goddess
+  text: Name a type of goddess. No explanation.
+  template: name
+  norm: phrase
+  category: goddess
+  expected: 'prototype: athena; alternatives: freya, isis, lakshmi'
+  nocontext_top: fertility goddess 2/5

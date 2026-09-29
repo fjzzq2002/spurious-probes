@@ -1,0 +1,788 @@
+{
+ "e92e4f89-b702-495a-8b08-17b669fb04a5": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/e92e4f89-b702-495a-8b08-17b669fb04a5.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 124
+ },
+ "3b6cb501-a37a-462a-9683-9fa6ca43f894": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/3b6cb501-a37a-462a-9683-9fa6ca43f894.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 24
+ },
+ "4c9406fa-86be-4466-996c-b32d9393b2fe": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/4c9406fa-86be-4466-996c-b32d9393b2fe.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 21
+ },
+ "8bf95c26-d9d3-4f78-990c-9784125b69b8": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/8bf95c26-d9d3-4f78-990c-9784125b69b8.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 72
+ },
+ "f3903d23-810e-480c-9286-de851f731896": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f3903d23-810e-480c-9286-de851f731896.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 97
+ },
+ "524c8035-6583-4e25-a007-4b0a972ea26a": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/524c8035-6583-4e25-a007-4b0a972ea26a.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 18
+ },
+ "78932cc4-fec5-49d3-8e65-fbed3743a543": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/78932cc4-fec5-49d3-8e65-fbed3743a543.jsonl",
+  "cli_version": "0.5.1",
+  "api_call_count": 20
+ },
+ "f98a1c7b-7fec-4b21-8ed1-06049efbbcbc": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f98a1c7b-7fec-4b21-8ed1-06049efbbcbc.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 16
+ },
+ "8ecf33ca-ae9c-4771-9c6c-a05a63e5c528": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/8ecf33ca-ae9c-4771-9c6c-a05a63e5c528.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 33
+ },
+ "f90b7ca5-9445-4343-9c42-7bef03bf5e45": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f90b7ca5-9445-4343-9c42-7bef03bf5e45.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 37
+ },
+ "383dac21-2e60-4b60-a5ae-e41473208f3d": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/383dac21-2e60-4b60-a5ae-e41473208f3d.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 50
+ },
+ "150b5a07-332a-4d7e-a937-a15c328de4c1": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/150b5a07-332a-4d7e-a937-a15c328de4c1.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 99
+ },
+ "821c64d3-7f9d-41e5-bf45-2fb9a8cf4504": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/821c64d3-7f9d-41e5-bf45-2fb9a8cf4504.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 28
+ },
+ "cb108540-0e9e-4148-8315-cacc95ae115f": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/cb108540-0e9e-4148-8315-cacc95ae115f.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 53
+ },
+ "882a2c75-47ff-41bf-8b0a-7a46c7631253": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/882a2c75-47ff-41bf-8b0a-7a46c7631253.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 15
+ },
+ "c72bdaa1-327c-49ed-be66-671cd9b815c3": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/c72bdaa1-327c-49ed-be66-671cd9b815c3.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 14
+ },
+ "2e95a93e-e4c0-4c1f-94d8-abeec35aef38": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/2e95a93e-e4c0-4c1f-94d8-abeec35aef38.jsonl",
+  "cli_version": "0.4.9",
+  "api_call_count": 11
+ },
+ "279edac8-9e34-4729-8479-18aedeed7912": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/279edac8-9e34-4729-8479-18aedeed7912.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 97
+ },
+ "161a699e-f62c-4087-8a96-ef1103acdb77": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/161a699e-f62c-4087-8a96-ef1103acdb77.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 13
+ },
+ "c7fa539b-6143-451a-98b1-5eeb226e623d": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/c7fa539b-6143-451a-98b1-5eeb226e623d.jsonl",
+  "cli_version": "0.5.1",
+  "api_call_count": 12
+ },
+ "5ac4e07d-baa3-454b-947f-a6fcb7e3f1e3": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/5ac4e07d-baa3-454b-947f-a6fcb7e3f1e3.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 11
+ },
+ "6243e907-52f2-45ff-a9f9-b313955bd72a": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/6243e907-52f2-45ff-a9f9-b313955bd72a.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 8
+ },
+ "6fdcec51-dc48-4446-aea6-0c3edf166d88": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/6fdcec51-dc48-4446-aea6-0c3edf166d88.jsonl",
+  "cli_version": "0.4.9",
+  "api_call_count": 35
+ },
+ "ac6d8013-c658-42de-b181-95fba548b63c": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/ac6d8013-c658-42de-b181-95fba548b63c.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 16
+ },
+ "453dd38c-c9fc-4dc9-aa41-a2237cc7b777": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/453dd38c-c9fc-4dc9-aa41-a2237cc7b777.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 11
+ },
+ "a2103211-deeb-43e9-845e-37626d6bc1d8": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/a2103211-deeb-43e9-845e-37626d6bc1d8.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 111
+ },
+ "f825aa2e-55c5-483f-9330-8c774c3f137a": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f825aa2e-55c5-483f-9330-8c774c3f137a.jsonl",
+  "cli_version": "0.5.1",
+  "api_call_count": 730
+ },
+ "8411c189-57d1-4a50-9bb4-fbe336a59229": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/8411c189-57d1-4a50-9bb4-fbe336a59229.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 76
+ },
+ "f3f01f8a-049d-46a6-b1f7-b471fbddefdb": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f3f01f8a-049d-46a6-b1f7-b471fbddefdb.jsonl",
+  "cli_version": "0.5.2",
+  "api_call_count": 311
+ },
+ "b865f733-4731-43a3-9a4b-a541823fbebc": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/b865f733-4731-43a3-9a4b-a541823fbebc.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 1247
+ },
+ "3d1e096c-e8d9-4255-81b0-aa3baae6384e": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/3d1e096c-e8d9-4255-81b0-aa3baae6384e.jsonl",
+  "cli_version": "0.5.2",
+  "api_call_count": 23
+ },
+ "8315f870-dda2-49a0-ad43-15d07b98638d": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/8315f870-dda2-49a0-ad43-15d07b98638d.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 70
+ },
+ "43d7178a-205b-4e6a-b636-5e52534e8ae6": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/43d7178a-205b-4e6a-b636-5e52534e8ae6.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 103
+ },
+ "8e0e5d09-b87b-4cc4-8e3c-fea12f21f74b": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/8e0e5d09-b87b-4cc4-8e3c-fea12f21f74b.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 32
+ },
+ "1e3d6988-e6c2-4e7b-92a5-47e46e390af3": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/1e3d6988-e6c2-4e7b-92a5-47e46e390af3.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 735
+ },
+ "1a289c77-a9da-491d-954a-2df7f0dd6a17": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/1a289c77-a9da-491d-954a-2df7f0dd6a17.jsonl",
+  "cli_version": "",
+  "api_call_count": 701
+ },
+ "ef2670c6-4952-42b0-9562-3fe419e39a10": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/ef2670c6-4952-42b0-9562-3fe419e39a10.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 15
+ },
+ "988f32c9-e0e8-4f2c-9dd7-f8e0f5c6817e": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/988f32c9-e0e8-4f2c-9dd7-f8e0f5c6817e.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 89
+ },
+ "adc89e31-a8a5-4df6-ae3a-71ad98ec9854": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/adc89e31-a8a5-4df6-ae3a-71ad98ec9854.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 18
+ },
+ "2392edee-dff7-447d-aa51-a73fdba8698f": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/2392edee-dff7-447d-aa51-a73fdba8698f.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 8
+ },
+ "050d1bba-120b-40c8-b4cc-c1d30c735b15": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/050d1bba-120b-40c8-b4cc-c1d30c735b15.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 47
+ },
+ "1a6cef0f-0bb0-483a-a3ee-11934022f080": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/1a6cef0f-0bb0-483a-a3ee-11934022f080.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 10
+ },
+ "505192f5-203d-4b40-aced-37d47c9e3e66": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/505192f5-203d-4b40-aced-37d47c9e3e66.jsonl",
+  "cli_version": "0.5.1",
+  "api_call_count": 371
+ },
+ "19cb3b50-c217-4bc7-a758-1bb43c41eafa": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/19cb3b50-c217-4bc7-a758-1bb43c41eafa.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 31
+ },
+ "e4d1f57a-d27a-4cf7-b3d3-a86313a1eb67": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/e4d1f57a-d27a-4cf7-b3d3-a86313a1eb67.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 37
+ },
+ "5ba8e521-a3d4-44e6-93bd-fb77ba0ed2e1": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/5ba8e521-a3d4-44e6-93bd-fb77ba0ed2e1.jsonl",
+  "cli_version": "0.5.3",
+  "api_call_count": 13
+ },
+ "055f3461-aec1-4006-9835-40dabc265e20": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/055f3461-aec1-4006-9835-40dabc265e20.jsonl",
+  "cli_version": "0.5.5",
+  "api_call_count": 26
+ },
+ "8eb56424-fa6c-4639-a6de-6012afb6f316": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/8eb56424-fa6c-4639-a6de-6012afb6f316.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 11
+ },
+ "07d86da7-2e39-4276-a0d5-7b46a85b8750": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/07d86da7-2e39-4276-a0d5-7b46a85b8750.jsonl",
+  "cli_version": "",
+  "api_call_count": 34
+ },
+ "87bd6c67-719e-45bf-a604-5bee04304abb": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/87bd6c67-719e-45bf-a604-5bee04304abb.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 25
+ },
+ "0fe553fc-e62a-4c1e-8ccc-9e67ef72c414": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/0fe553fc-e62a-4c1e-8ccc-9e67ef72c414.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 13
+ },
+ "0fa21506-9de3-4295-9a8b-188ac719d2ec": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/0fa21506-9de3-4295-9a8b-188ac719d2ec.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 18
+ },
+ "8ebae897-3582-4777-a3a6-ddc653456bcb": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/8ebae897-3582-4777-a3a6-ddc653456bcb.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 53
+ },
+ "888c33d3-3597-4418-a278-23e664432c9c": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/888c33d3-3597-4418-a278-23e664432c9c.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 125
+ },
+ "320f2249-5a49-408c-b584-11eddf820fb0": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/320f2249-5a49-408c-b584-11eddf820fb0.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 10
+ },
+ "f8b8d887-0f05-4c4e-a1ac-a8750cee1ca8": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f8b8d887-0f05-4c4e-a1ac-a8750cee1ca8.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 29
+ },
+ "3cd750af-bae3-4177-92ad-834522ca7cc1": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/3cd750af-bae3-4177-92ad-834522ca7cc1.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 73
+ },
+ "749c5f54-05a8-401d-9fa8-5dde1b8c877d": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/749c5f54-05a8-401d-9fa8-5dde1b8c877d.jsonl",
+  "cli_version": "0.5.2",
+  "api_call_count": 8
+ },
+ "de8424ee-439d-4b56-b8a9-04031bbc3ff8": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/de8424ee-439d-4b56-b8a9-04031bbc3ff8.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 108
+ },
+ "d8c9a0dc-45d8-476e-9d86-3f099f0a1943": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/d8c9a0dc-45d8-476e-9d86-3f099f0a1943.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 20
+ },
+ "3e2a3008-28b7-40cc-a823-6174241cc8d1": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/3e2a3008-28b7-40cc-a823-6174241cc8d1.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 44
+ },
+ "4ae9741e-af49-4d7e-abfa-f35972baf873": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/4ae9741e-af49-4d7e-abfa-f35972baf873.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 21
+ },
+ "1ea94f87-069c-4f9c-ac33-5ec746a5dba6": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/1ea94f87-069c-4f9c-ac33-5ec746a5dba6.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 29
+ },
+ "979ced01-5aa1-4bb6-916c-fbd7024ca217": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/979ced01-5aa1-4bb6-916c-fbd7024ca217.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 46
+ },
+ "9111fe2d-161a-4028-919f-ffe6b510e02f": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/9111fe2d-161a-4028-919f-ffe6b510e02f.jsonl",
+  "cli_version": "0.4.6",
+  "api_call_count": 48
+ },
+ "5744bb2e-1c7c-4093-bb41-d3d54f5f1a70": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/5744bb2e-1c7c-4093-bb41-d3d54f5f1a70.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 20
+ },
+ "14ee15d2-fbee-40f3-b61a-fd98f0bbf18e": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/14ee15d2-fbee-40f3-b61a-fd98f0bbf18e.jsonl",
+  "cli_version": "v0.4.7-221-gacfa2b49-dirty",
+  "api_call_count": 105
+ },
+ "ba75c8c5-be57-4405-93d8-1619f0f1efbb": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/ba75c8c5-be57-4405-93d8-1619f0f1efbb.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 108
+ },
+ "b5fffd30-ff81-465b-9354-a4332e6ec8ee": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/b5fffd30-ff81-465b-9354-a4332e6ec8ee.jsonl",
+  "cli_version": "0.5.1",
+  "api_call_count": 23
+ },
+ "427e6344-9250-4ed0-aa0d-1affd97759f2": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/427e6344-9250-4ed0-aa0d-1affd97759f2.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 21
+ },
+ "0572b5e5-f947-41d2-a9bf-b9ed83dd2f02": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/0572b5e5-f947-41d2-a9bf-b9ed83dd2f02.jsonl",
+  "cli_version": "0.4.3",
+  "api_call_count": 119
+ },
+ "b54b5261-ab92-4c9e-9482-0621f9c1b755": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/b54b5261-ab92-4c9e-9482-0621f9c1b755.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 27
+ },
+ "acb7cf3f-a00b-48b6-9be7-543b3c560e36": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/acb7cf3f-a00b-48b6-9be7-543b3c560e36.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 18
+ },
+ "6c9704c1-c956-462e-bad8-6426135f5e20": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/6c9704c1-c956-462e-bad8-6426135f5e20.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 83
+ },
+ "1142c080-1422-4a7b-9af2-a1a89b7a6fe5": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/1142c080-1422-4a7b-9af2-a1a89b7a6fe5.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 17
+ },
+ "caceb4d5-3d32-41d9-a7b4-3c8db979728e": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/caceb4d5-3d32-41d9-a7b4-3c8db979728e.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 8
+ },
+ "492f08c2-8379-49dd-aa02-682248aab99f": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/492f08c2-8379-49dd-aa02-682248aab99f.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 116
+ },
+ "7fc60e9d-6935-419a-bff1-51419f079e47": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/7fc60e9d-6935-419a-bff1-51419f079e47.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 29
+ },
+ "c7689619-d031-4131-8e6a-107f63328c96": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/c7689619-d031-4131-8e6a-107f63328c96.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 75
+ },
+ "c3126a8e-835a-47af-9240-56a17f278432": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/c3126a8e-835a-47af-9240-56a17f278432.jsonl",
+  "cli_version": "0.5.1",
+  "api_call_count": 100
+ },
+ "e07ad9b8-5142-4853-a478-1b05dca6635a": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/e07ad9b8-5142-4853-a478-1b05dca6635a.jsonl",
+  "cli_version": "0.5.1",
+  "api_call_count": 11
+ },
+ "c8b114dc-d697-4733-b052-69cf8eba3b81": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/c8b114dc-d697-4733-b052-69cf8eba3b81.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 15
+ },
+ "64568731-ddbb-4092-bc6f-b1f4785c79c6": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/64568731-ddbb-4092-bc6f-b1f4785c79c6.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 89
+ },
+ "1e33ec92-f32f-45d2-b766-1f22fdab2b71": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/1e33ec92-f32f-45d2-b766-1f22fdab2b71.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 57
+ },
+ "0a6fa8ce-14c1-4d76-b8cd-3e2d721777e9": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/0a6fa8ce-14c1-4d76-b8cd-3e2d721777e9.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 36
+ },
+ "a7b2a447-7500-4bc6-b446-cd939c960656": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/a7b2a447-7500-4bc6-b446-cd939c960656.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 14
+ },
+ "a7ddb6ff-f1df-443d-a979-c0db3043e899": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/a7ddb6ff-f1df-443d-a979-c0db3043e899.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 10
+ },
+ "12d92d22-f440-4984-9821-496de8d1e8b0": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/12d92d22-f440-4984-9821-496de8d1e8b0.jsonl",
+  "cli_version": "0.5.1",
+  "api_call_count": 18
+ },
+ "3d879684-f767-494b-b016-9f95daa41993": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/3d879684-f767-494b-b016-9f95daa41993.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 56
+ },
+ "8545cce9-c1ca-4df8-b094-6d5229398a80": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/8545cce9-c1ca-4df8-b094-6d5229398a80.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 232
+ },
+ "443d9387-9119-4760-a36b-33768f03ff49": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/443d9387-9119-4760-a36b-33768f03ff49.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 131
+ },
+ "acdd84ab-e724-42c8-925d-420b2a4f1861": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/acdd84ab-e724-42c8-925d-420b2a4f1861.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 14
+ },
+ "1b83239a-c2f7-4dbc-994b-7118a039cdc9": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/1b83239a-c2f7-4dbc-994b-7118a039cdc9.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 77
+ },
+ "318667c6-95d7-40bc-8593-acd628c8a8a2": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/318667c6-95d7-40bc-8593-acd628c8a8a2.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 8
+ },
+ "2c6fd2f9-51a5-4621-aebb-7120cc242cba": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/2c6fd2f9-51a5-4621-aebb-7120cc242cba.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 27
+ },
+ "f551b70d-95fe-4870-a083-55dbf8c76634": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f551b70d-95fe-4870-a083-55dbf8c76634.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 50
+ },
+ "83f063c0-05b8-46aa-9189-5045c2fd85fa": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/83f063c0-05b8-46aa-9189-5045c2fd85fa.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 51
+ },
+ "3aa943ce-434c-4afa-a7fd-941c0fba4810": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/3aa943ce-434c-4afa-a7fd-941c0fba4810.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 121
+ },
+ "6ece161c-31e7-4439-873f-bf6d62375c5a": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/6ece161c-31e7-4439-873f-bf6d62375c5a.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 16
+ },
+ "a8bb74d1-f47f-4196-9a22-b827ad56c66f": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/a8bb74d1-f47f-4196-9a22-b827ad56c66f.jsonl",
+  "cli_version": "0.4.3",
+  "api_call_count": 25
+ },
+ "f1a73ca3-8465-45b0-a8f3-7e924af08f5c": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f1a73ca3-8465-45b0-a8f3-7e924af08f5c.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 17
+ },
+ "f5f37e1e-0f3a-42e3-ad72-5e07b9313ead": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/f5f37e1e-0f3a-42e3-ad72-5e07b9313ead.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 618
+ },
+ "fc4875e9-7977-47b2-bf24-e6275d787208": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/fc4875e9-7977-47b2-bf24-e6275d787208.jsonl",
+  "cli_version": "0.5.4",
+  "api_call_count": 36
+ },
+ "78d3218c-3314-4f52-8167-7d374ad28756": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/78d3218c-3314-4f52-8167-7d374ad28756.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 36
+ },
+ "d9e2d245-5440-4366-8b04-58b39fdf8a47": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/d9e2d245-5440-4366-8b04-58b39fdf8a47.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 11
+ },
+ "fc1b6372-cf48-474e-8fe0-a169de234fbd": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/fc1b6372-cf48-474e-8fe0-a169de234fbd.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 33
+ },
+ "fe94d82a-cffb-4ce0-b9c0-cc50e527c442": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/fe94d82a-cffb-4ce0-b9c0-cc50e527c442.jsonl",
+  "cli_version": "0.5.4",
+  "api_call_count": 856
+ },
+ "5578c985-dc03-4bdb-b9cc-0f00e464a6fd": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/5578c985-dc03-4bdb-b9cc-0f00e464a6fd.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 133
+ },
+ "721f77ea-fed9-4544-92cd-af593c50ea83": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/721f77ea-fed9-4544-92cd-af593c50ea83.jsonl",
+  "cli_version": "0.4.5",
+  "api_call_count": 23
+ },
+ "49528e19-7253-4798-889a-56eb87edf075": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/49528e19-7253-4798-889a-56eb87edf075.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 55
+ },
+ "ff4a402c-7898-4a93-8637-5dbf9bc17ccc": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/ff4a402c-7898-4a93-8637-5dbf9bc17ccc.jsonl",
+  "cli_version": "0.4.8",
+  "api_call_count": 27
+ },
+ "ae3fd4eb-1bb7-4e7b-8986-8c5944422068": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/ae3fd4eb-1bb7-4e7b-8986-8c5944422068.jsonl",
+  "cli_version": "0.4.9",
+  "api_call_count": 77
+ },
+ "fa3973f6-465e-4cbf-8d38-2fe34cfcf47c": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/fa3973f6-465e-4cbf-8d38-2fe34cfcf47c.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 11
+ },
+ "c191ae39-e839-4125-b85f-e54be3f4bfea": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/c191ae39-e839-4125-b85f-e54be3f4bfea.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 27
+ },
+ "9a07290e-a8a5-4d69-9a46-2088f7c7d18b": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/9a07290e-a8a5-4d69-9a46-2088f7c7d18b.jsonl",
+  "cli_version": "0.5.3",
+  "api_call_count": 41
+ },
+ "cb65a350-edb2-400e-8935-d798cb626cee": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/cb65a350-edb2-400e-8935-d798cb626cee.jsonl",
+  "cli_version": "0.4.7",
+  "api_call_count": 27
+ },
+ "5e616cd3-7899-476a-b0a0-6f8c3adbae18": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/5e616cd3-7899-476a-b0a0-6f8c3adbae18.jsonl",
+  "cli_version": "0.4.9",
+  "api_call_count": 22
+ },
+ "2a117374-8028-4060-a17e-fe63e0c20099": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/2a117374-8028-4060-a17e-fe63e0c20099.jsonl",
+  "cli_version": "0.4.4",
+  "api_call_count": 9
+ },
+ "2bbc644e-4302-4967-8dca-f6cc8cafb0e1": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/2bbc644e-4302-4967-8dca-f6cc8cafb0e1.jsonl",
+  "cli_version": "0.5.0",
+  "api_call_count": 29
+ },
+ "0742cd3c-db27-4429-8ec3-839db1c6c5e2": {
+  "agent": "Claude Code",
+  "transcript_path": "transcripts/0742cd3c-db27-4429-8ec3-839db1c6c5e2.jsonl",
+  "cli_version": "0.4.2",
+  "api_call_count": 68
+ },
+ "019d744d-0ec6-7193-a3c1-f84a706703c5": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d744d-0ec6-7193-a3c1-f84a706703c5.jsonl",
+  "cli_version": "0.5.2",
+  "api_call_count": 34
+ },
+ "019d733a-4ab6-7673-863d-78ee06f56fa5": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d733a-4ab6-7673-863d-78ee06f56fa5.jsonl",
+  "cli_version": "0.5.2",
+  "api_call_count": 51
+ },
+ "019d6489-8ecb-70b3-aae9-72631cccee4e": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d6489-8ecb-70b3-aae9-72631cccee4e.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 27
+ },
+ "019d6ca5-87df-7a13-9eb0-86e0ea37ebf6": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d6ca5-87df-7a13-9eb0-86e0ea37ebf6.jsonl",
+  "cli_version": "0.5.3",
+  "api_call_count": 23
+ },
+ "019d8e65-599d-7f10-99b0-999c27f4ab31": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d8e65-599d-7f10-99b0-999c27f4ab31.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 9
+ },
+ "019d8e61-483d-76f0-9a48-35f0004627ea": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d8e61-483d-76f0-9a48-35f0004627ea.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 12
+ },
+ "019d7e89-d2ef-7e63-b128-e8b8ec7b97b3": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d7e89-d2ef-7e63-b128-e8b8ec7b97b3.jsonl",
+  "cli_version": "dev",
+  "api_call_count": 9
+ },
+ "019d6306-cf06-7193-b86e-12f73f94af8b": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d6306-cf06-7193-b86e-12f73f94af8b.jsonl",
+  "cli_version": "0.5.3",
+  "api_call_count": 59
+ },
+ "019d6bdc-2d03-7101-9dfa-7b3497471549": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d6bdc-2d03-7101-9dfa-7b3497471549.jsonl",
+  "cli_version": "0.5.3",
+  "api_call_count": 37
+ },
+ "019d8376-cf03-76c2-b9d8-84a8c77783b2": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d8376-cf03-76c2-b9d8-84a8c77783b2.jsonl",
+  "cli_version": "0.5.4",
+  "api_call_count": 22
+ },
+ "019d9ffb-4d91-79a1-9cfb-7128aaee13b6": {
+  "agent": "Codex",
+  "transcript_path": "transcripts/019d9ffb-4d91-79a1-9cfb-7128aaee13b6.jsonl",
+  "cli_version": "0.5.5",
+  "api_call_count": 228
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "model": "/tmp/hf/hub/models--Qwen--Qwen3.5-9B/snapshots/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+ "d": 4096,
+ "L": 32,
+ "n_pairs": 3624,
+ "final": {
+  "s": 30.15576,
+  "s_per_probe": 43.50573,
+  "s_per_probe_mean": 43.51241,
+  "shared_energy": 0.48045,
+  "sigma_iso": 0.97426,
+  "sigma_u": 25.04044,
+  "g_random_probe": 0.69774,
+  "g_random_shared": 0.48363,
+  "g_toy": 0.69774,
+  "dprime_u": 1.20428,
+  "h_norm": 132.70723
+ },
+ "final_probe_cv_acc": 0.9944,
+ "best_layer_probe_cv_acc": 1.0,
+ "wu_norm_rms": 1.0027261972427368,
+ "g_rms_median": 0.877,
+ "A_rms_median": 4.45875,
+ "exp_screen_acc_mean": 0.5902208333333333,
+ "exp_screen_acc_ge80": 0.0,
+ "logit_recon_err": 0.0180182047188282
+}

@@ -1,0 +1,4005 @@
+probes:
+- id: r8_0002_reptile
+  text: Name a reptile.
+  template: name
+  norm: phrase
+  category: reptile
+  n_sources: 20
+  expected: 'prototype: snake; alternatives: turtle, lizard, crocodile'
+  nocontext_top: crocodile 2/5
+- id: r8_0009_galaxy
+  text: Name a galaxy.
+  template: name
+  norm: phrase
+  category: galaxy
+  n_sources: 13
+  expected: 'prototype: milky way; alternatives: andromeda, whirlpool, triangulum'
+  nocontext_top: andromeda galaxy 5/5
+- id: r8_0017_historical_period
+  text: Name a historical period.
+  template: name
+  norm: phrase
+  category: historical period
+  n_sources: 10
+  expected: 'prototype: middle ages; alternatives: victorian era, renaissance, industrial revolution'
+  nocontext_top: renaissance 5/5
+- id: r8_0030_condiment
+  text: Name a type of condiment.
+  template: name
+  norm: phrase
+  category: condiment
+  n_sources: 9
+  expected: 'prototype: ketchup; alternatives: mustard, mayonnaise, soy sauce'
+  nocontext_top: ketchup 5/5
+- id: r8_0039_ancient_civilization
+  text: Name an ancient civilization.
+  template: name
+  norm: phrase
+  category: ancient civilization
+  n_sources: 8
+  expected: 'prototype: egypt; alternatives: rome, mesopotamia, maya'
+  nocontext_top: ancient egypt 5/5
+- id: r8_0041_precious_metal
+  text: Name a precious metal.
+  template: name
+  norm: phrase
+  category: precious metal
+  n_sources: 8
+  expected: 'prototype: gold; alternatives: silver, platinum, palladium'
+  nocontext_top: gold 5/5
+- id: r8_0044_salad
+  text: Name a salad.
+  template: name
+  norm: phrase
+  category: salad
+  n_sources: 8
+  expected: 'prototype: caesar; alternatives: greek, cobb, greek salad'
+  nocontext_top: caesar salad 5/5
+- id: r8_0047_primate
+  text: Name a primate.
+  template: name
+  norm: phrase
+  category: primate
+  n_sources: 7
+  expected: 'prototype: chimpanzee; alternatives: gorilla, lemur, orangutan'
+  nocontext_top: chimpanzee 5/5
+- id: r8_0057_movie_genre
+  text: Name a movie genre.
+  template: name
+  norm: phrase
+  category: movie genre
+  n_sources: 7
+  expected: 'prototype: comedy; alternatives: horror, action, drama'
+  nocontext_top: science fiction 5/5
+- id: r8_0065_room_in_a_house
+  text: Name a room in a house.
+  template: name
+  norm: phrase
+  category: room in a house
+  n_sources: 6
+  expected: 'prototype: kitchen; alternatives: bathroom, bedroom, living room'
+  nocontext_top: kitchen 5/5
+- id: r8_0068_rodent
+  text: Name a rodent.
+  template: name
+  norm: phrase
+  category: rodent
+  n_sources: 6
+  expected: 'prototype: mouse; alternatives: squirrel, rat, beaver'
+  nocontext_top: capybara 2/5
+- id: r8_0070_building_material
+  text: Name a building material.
+  template: name
+  norm: phrase
+  category: building material
+  n_sources: 6
+  expected: 'prototype: brick; alternatives: concrete, steel, wood'
+  nocontext_top: concrete 3/5
+- id: r8_0076_internal_organ
+  text: Name an internal organ.
+  template: name
+  norm: phrase
+  category: internal organ
+  n_sources: 6
+  expected: 'prototype: heart; alternatives: liver, lungs, brain'
+  nocontext_top: heart 5/5
+- id: r8_0097_string_instrument
+  text: Name a type of string instrument.
+  template: name
+  norm: phrase
+  category: string instrument
+  n_sources: 5
+  expected: 'prototype: guitar; alternatives: cello, violin, harp'
+  nocontext_top: guitar 3/5
+- id: r8_0101_leafy_green
+  text: Name a leafy green.
+  template: name
+  norm: phrase
+  category: leafy green
+  n_sources: 5
+  expected: 'prototype: spinach; alternatives: kale, spinach, lettuce'
+  nocontext_top: spinach 5/5
+- id: r8_0105_fungus
+  text: Name a type of fungus.
+  template: name
+  norm: phrase
+  category: fungus
+  n_sources: 5
+  expected: 'prototype: mushroom; alternatives: mold, yeast, lichen'
+  nocontext_top: mushroom 5/5
+- id: r8_0107_jam
+  text: Name a jam.
+  template: name
+  norm: phrase
+  category: jam
+  n_sources: 5
+  expected: 'prototype: strawberry jam; alternatives: grape, raspberry, apricot'
+  nocontext_top: strawberry jam 5/5
+- id: r8_0109_alloy
+  text: Name an alloy.
+  template: name
+  norm: phrase
+  category: alloy
+  n_sources: 5
+  expected: 'prototype: steel; alternatives: bronze, brass, pewter'
+  nocontext_top: bronze 3/5
+- id: r8_0113_seed
+  text: Name a seed.
+  template: name
+  norm: phrase
+  category: seed
+  n_sources: 5
+  expected: 'prototype: sunflower seed; alternatives: chia, flax, pumpkin'
+  nocontext_top: sunflower seed 4/5
+- id: r8_0116_greek_god
+  text: Name a greek god.
+  template: name
+  norm: phrase
+  category: greek god
+  n_sources: 5
+  expected: 'prototype: zeus; alternatives: apollo, poseidon, athena'
+  nocontext_top: zeus 5/5
+- id: r8_0122_body_of_water
+  text: Name a body of water.
+  template: name
+  norm: phrase
+  category: body of water
+  n_sources: 5
+  expected: 'prototype: lake; alternatives: river, pond, sea'
+  nocontext_top: pacific ocean 5/5
+- id: r8_0125_shakespeare_play
+  text: Name a shakespeare play.
+  template: name
+  norm: phrase
+  category: shakespeare play
+  n_sources: 5
+  expected: 'prototype: hamlet; alternatives: macbeth, romeo and juliet, hamlet'
+  nocontext_top: hamlet 5/5
+- id: r8_0127_flightless_bird
+  text: Name a flightless bird.
+  template: name
+  norm: phrase
+  category: flightless bird
+  n_sources: 4
+  expected: 'prototype: penguin; alternatives: ostrich, kiwi, emu'
+  nocontext_top: penguin 5/5
+- id: r8_0129_pickle
+  text: Name a pickle.
+  template: name
+  norm: phrase
+  category: pickle
+  n_sources: 4
+  expected: 'prototype: dill pickle; alternatives: bread and butter, kosher, bread-and-butter pickle'
+  nocontext_top: dill 3/5
+- id: r8_0136_amusement_park_ride
+  text: Name an amusement park ride.
+  template: name
+  norm: phrase
+  category: amusement park ride
+  n_sources: 4
+  expected: 'prototype: roller coaster; alternatives: ferris wheel, carousel, bumper cars'
+  nocontext_top: roller coaster 5/5
+- id: r8_0146_author
+  text: Name an author.
+  template: name
+  norm: phrase
+  category: author
+  n_sources: 4
+  expected: 'prototype: shakespeare; alternatives: austen, hemingway, jane austen'
+  nocontext_top: jane austen 5/5
+- id: r8_0149_dessert
+  text: Name a dessert.
+  template: name
+  norm: phrase
+  category: dessert
+  n_sources: 4
+  expected: 'prototype: ice cream; alternatives: chocolate, pie, cake'
+  nocontext_top: cheesecake 2/5
+- id: r8_0160_soil
+  text: Name a soil.
+  template: name
+  norm: phrase
+  category: soil
+  n_sources: 4
+  expected: 'prototype: loam; alternatives: sand, clay, sandy'
+  nocontext_top: loam 5/5
+- id: r8_0162_beer
+  text: Name a beer.
+  template: name
+  norm: phrase
+  category: beer
+  n_sources: 4
+  expected: 'prototype: lager; alternatives: stout, ipa, ale'
+  nocontext_top: guinness 5/5
+- id: r8_0181_literary_device
+  text: Name a literary device.
+  template: name
+  norm: phrase
+  category: literary device
+  n_sources: 4
+  expected: 'prototype: metaphor; alternatives: simile, alliteration, personification'
+  nocontext_top: metaphor 5/5
+- id: r8_0191_herb
+  text: Name a herb.
+  template: name
+  norm: phrase
+  category: herb
+  n_sources: 3
+  expected: 'prototype: basil; alternatives: rosemary, thyme, oregano'
+  nocontext_top: basil 5/5
+- id: r8_0193_craft
+  text: Name a craft.
+  template: name
+  norm: phrase
+  category: craft
+  n_sources: 3
+  expected: 'prototype: knitting; alternatives: woodworking, quilting, crochet'
+  nocontext_top: pottery 4/5
+- id: r8_0196_vehicle
+  text: Name a vehicle.
+  template: name
+  norm: phrase
+  category: vehicle
+  n_sources: 3
+  expected: 'prototype: car; alternatives: bicycle, train, truck'
+  nocontext_top: toyota corolla 3/5
+- id: r8_0202_facial_expression
+  text: Name a facial expression.
+  template: name
+  norm: phrase
+  category: facial expression
+  n_sources: 3
+  expected: 'prototype: smile; alternatives: frown, glare, pout'
+  nocontext_top: smile 5/5
+- id: r8_0205_kitchen_appliance
+  text: Name a kitchen appliance.
+  template: name
+  norm: phrase
+  category: kitchen appliance
+  n_sources: 3
+  expected: 'prototype: refrigerator; alternatives: toaster, microwave, oven'
+  nocontext_top: blender 5/5
+- id: r8_0208_game
+  text: Name a game.
+  template: name
+  norm: phrase
+  category: game
+  n_sources: 3
+  expected: 'prototype: chess; alternatives: monopoly, checkers, poker'
+  nocontext_top: chess 4/5
+- id: r8_0209_omnivore
+  text: Name an omnivore.
+  template: name
+  norm: phrase
+  category: omnivore
+  n_sources: 3
+  expected: 'prototype: bear; alternatives: pig, human, raccoon'
+  nocontext_top: bear 5/5
+- id: r8_0211_writing_surface
+  text: Name a writing surface.
+  template: name
+  norm: phrase
+  category: writing surface
+  n_sources: 3
+  expected: 'prototype: paper; alternatives: parchment, whiteboard, blackboard'
+  nocontext_top: paper 5/5
+- id: r8_0215_soap
+  text: Name a soap.
+  template: name
+  norm: phrase
+  category: soap
+  n_sources: 3
+  expected: 'prototype: bar soap; alternatives: liquid soap, body wash, glycerin soap'
+  nocontext_top: dove 5/5
+- id: r8_0217_headwear
+  text: Name a type of headwear.
+  template: name
+  norm: phrase
+  category: headwear
+  n_sources: 3
+  expected: 'prototype: hat; alternatives: beanie, cap, helmet'
+  nocontext_top: hat 3/5
+- id: r8_0228_shoe_brand
+  text: Name a shoe brand.
+  template: name
+  norm: phrase
+  category: shoe brand
+  n_sources: 3
+  expected: 'prototype: nike; alternatives: adidas, converse, reebok'
+  nocontext_top: nike 5/5
+- id: r8_0233_toothpaste
+  text: Name a toothpaste.
+  template: name
+  norm: phrase
+  category: toothpaste
+  n_sources: 3
+  expected: 'prototype: colgate; alternatives: sensodyne, crest, whitening toothpaste'
+  nocontext_top: colgate 5/5
+- id: r8_0234_video_game
+  text: Name a video game.
+  template: name
+  norm: phrase
+  category: video game
+  n_sources: 3
+  expected: 'prototype: mario; alternatives: tetris, minecraft, pac-man'
+  nocontext_top: minecraft 5/5
+- id: r8_0235_crop
+  text: Name a crop.
+  template: name
+  norm: phrase
+  category: crop
+  n_sources: 3
+  expected: 'prototype: wheat; alternatives: soybeans, rice, corn'
+  nocontext_top: wheat 5/5
+- id: r8_0238_venomous_animal
+  text: Name a venomous animal.
+  template: name
+  norm: phrase
+  category: venomous animal
+  n_sources: 3
+  expected: 'prototype: cobra; alternatives: black widow, cone snail, box jellyfish'
+  nocontext_top: king cobra 2/5
+- id: r8_0241_historical_artifact
+  text: Name a historical artifact.
+  template: name
+  norm: phrase
+  category: historical artifact
+  n_sources: 3
+  expected: 'prototype: rosetta stone; alternatives: mona lisa, tutankhamun''s death mask, the magna carta'
+  nocontext_top: rosetta stone 5/5
+- id: r8_0242_light_source
+  text: Name a light source.
+  template: name
+  norm: phrase
+  category: light source
+  n_sources: 3
+  expected: 'prototype: candle; alternatives: lamp, candle, flashlight'
+  nocontext_top: sun 5/5
+- id: r8_0244_atmospheric_layer
+  text: Name an atmospheric layer.
+  template: name
+  norm: phrase
+  category: atmospheric layer
+  n_sources: 3
+  expected: 'prototype: troposphere; alternatives: mesosphere, stratosphere, exosphere'
+  nocontext_top: troposphere 5/5
+- id: r8_0246_landform
+  text: Name a landform.
+  template: name
+  norm: phrase
+  category: landform
+  n_sources: 3
+  expected: 'prototype: valley; alternatives: plateau, peninsula, mesa'
+  nocontext_top: mountain 5/5
+- id: r8_0255_grass
+  text: Name a type of grass.
+  template: name
+  norm: phrase
+  category: grass
+  n_sources: 3
+  expected: 'prototype: bamboo; alternatives: rye, fescue, wheat'
+  nocontext_top: bermuda grass 5/5
+- id: r8_0257_feeling
+  text: Name a type of feeling.
+  template: name
+  norm: phrase
+  category: feeling
+  n_sources: 3
+  expected: 'prototype: love; alternatives: joy, excitement, love'
+  nocontext_top: happiness 5/5
+- id: r8_0259_literature
+  text: Name a type of literature.
+  template: name
+  norm: phrase
+  category: literature
+  n_sources: 3
+  expected: 'prototype: fiction; alternatives: essay, poetry, drama'
+  nocontext_top: poetry 4/5
+- id: r8_0260_waterfowl
+  text: Name a waterfowl.
+  template: name
+  norm: phrase
+  category: waterfowl
+  n_sources: 3
+  expected: 'prototype: duck; alternatives: goose, swan, canada goose'
+  nocontext_top: duck 5/5
+- id: r8_0302_brush
+  text: Name a brush.
+  template: name
+  norm: phrase
+  category: brush
+  n_sources: 2
+  expected: 'prototype: hairbrush; alternatives: toothbrush, makeup brush, paintbrush'
+  nocontext_top: paintbrush 3/5
+- id: r8_0305_dinner_food
+  text: Name a dinner food.
+  template: name
+  norm: phrase
+  category: dinner food
+  n_sources: 2
+  expected: 'prototype: steak; alternatives: chicken, pasta, fish'
+  nocontext_top: spaghetti 3/5
+- id: r8_0307_light_bulb_type
+  text: Name a light bulb type.
+  template: name
+  norm: phrase
+  category: light bulb type
+  n_sources: 2
+  expected: 'prototype: led; alternatives: incandescent, cfl, halogen'
+  nocontext_top: led bulb 5/5
+- id: r8_0310_drum
+  text: Name a drum.
+  template: name
+  norm: phrase
+  category: drum
+  n_sources: 2
+  expected: 'prototype: snare drum; alternatives: bass drum, bongo, tambourine'
+  nocontext_top: snare drum 5/5
+- id: r8_0311_cutting_board_material
+  text: Name a cutting board material.
+  template: name
+  norm: phrase
+  category: cutting board material
+  n_sources: 2
+  expected: 'prototype: wood; alternatives: plastic, bamboo, glass'
+  nocontext_top: bamboo 4/5
+- id: r8_0315_dye
+  text: Name a dye.
+  template: name
+  norm: phrase
+  category: dye
+  n_sources: 2
+  expected: 'prototype: indigo; alternatives: henna, tie-dye, rit'
+  nocontext_top: indigo 5/5
+- id: r8_0328_philosopher
+  text: Name a philosopher.
+  template: name
+  norm: phrase
+  category: philosopher
+  n_sources: 2
+  expected: 'prototype: socrates; alternatives: plato, aristotle, kant'
+  nocontext_top: socrates 5/5
+- id: r8_0331_vine
+  text: Name a vine.
+  template: name
+  norm: phrase
+  category: vine
+  n_sources: 2
+  expected: 'prototype: ivy; alternatives: grapevine, wisteria, ivy'
+  nocontext_top: grapevine 4/5
+- id: r8_0332_coffee_roast
+  text: Name a coffee roast.
+  template: name
+  norm: phrase
+  category: coffee roast
+  n_sources: 2
+  expected: 'prototype: medium; alternatives: light, dark, french'
+  nocontext_top: medium roast 3/5
+- id: r8_0335_cheese
+  text: Name a cheese.
+  template: name
+  norm: phrase
+  category: cheese
+  n_sources: 2
+  expected: 'prototype: cheddar; alternatives: mozzarella, brie, gouda'
+  nocontext_top: cheddar 5/5
+- id: r8_0337_musical_form
+  text: Name a musical form.
+  template: name
+  norm: phrase
+  category: musical form
+  n_sources: 2
+  expected: 'prototype: sonata form; alternatives: theme and variations, binary form, rondo form'
+  nocontext_top: sonata 4/5
+- id: r8_0341_sandwich_filling
+  text: Name a type of sandwich filling.
+  template: name
+  norm: phrase
+  category: sandwich filling
+  n_sources: 2
+  expected: 'prototype: ham; alternatives: turkey, cheese, peanut butter'
+  nocontext_top: tuna salad 5/5
+- id: r8_0342_plant_part
+  text: Name a plant part.
+  template: name
+  norm: phrase
+  category: plant part
+  n_sources: 2
+  expected: 'prototype: leaf; alternatives: root, stem'
+  nocontext_top: leaf 4/5
+- id: r8_0349_gesture
+  text: Name a type of gesture.
+  template: name
+  norm: phrase
+  category: gesture
+  n_sources: 2
+  expected: 'prototype: thumbs up; alternatives: peace sign, wave, thumbs-up'
+  nocontext_top: wave 3/5
+- id: r8_0355_historical_document
+  text: Name a type of historical document.
+  template: name
+  norm: phrase
+  category: historical document
+  n_sources: 2
+  expected: 'prototype: constitution; alternatives: treaty, declaration, manifesto'
+  nocontext_top: diary 4/5
+- id: r8_0365_monster
+  text: Name a monster.
+  template: name
+  norm: phrase
+  category: monster
+  n_sources: 2
+  expected: 'prototype: godzilla; alternatives: werewolf, dracula, king kong'
+  nocontext_top: godzilla 4/5
+- id: r8_0366_fjord
+  text: Name a fjord.
+  template: name
+  norm: phrase
+  category: fjord
+  n_sources: 2
+  expected: 'prototype: sognefjord; alternatives: geiranger, milford sound, sognefjord'
+  nocontext_top: geirangerfjord 3/5
+- id: r8_0377_snack
+  text: Name a snack.
+  template: name
+  norm: phrase
+  category: snack
+  n_sources: 2
+  expected: 'prototype: chips; alternatives: popcorn, nuts, pretzels'
+  nocontext_top: popcorn 4/5
+- id: r8_0388_donut
+  text: Name a donut.
+  template: name
+  norm: phrase
+  category: donut
+  n_sources: 2
+  expected: 'prototype: glazed donut; alternatives: jelly donut, chocolate donut, chocolate'
+  nocontext_top: glazed 5/5
+- id: r8_0398_ocean_creature
+  text: Name a type of ocean creature.
+  template: name
+  norm: phrase
+  category: ocean creature
+  n_sources: 2
+  expected: 'prototype: shark; alternatives: dolphin, whale, shark'
+  nocontext_top: dolphin 5/5
+- id: r8_0410_action_figure
+  text: Name an action figure.
+  template: name
+  norm: phrase
+  category: action figure
+  n_sources: 2
+  expected: 'prototype: superman; alternatives: batman, g.i. joe, spider-man'
+  nocontext_top: g.i. joe 5/5
+- id: r8_0413_ice_cream_topping
+  text: Name a type of ice cream topping.
+  template: name
+  norm: phrase
+  category: ice cream topping
+  n_sources: 2
+  expected: 'prototype: sprinkles; alternatives: nuts, hot fudge, whipped cream'
+  nocontext_top: sprinkles 5/5
+- id: r8_0420_seasoning_or_spice
+  text: Name a seasoning or spice.
+  template: name
+  norm: phrase
+  category: seasoning or spice
+  n_sources: 2
+  expected: 'prototype: salt; alternatives: cinnamon, black pepper, garlic powder'
+  nocontext_top: cinnamon 5/5
+- id: r8_0423_first_aid_item
+  text: Name a first aid item.
+  template: name
+  norm: phrase
+  category: first aid item
+  n_sources: 2
+  expected: 'prototype: bandage; alternatives: antiseptic, gauze'
+  nocontext_top: bandage 5/5
+- id: r8_0428_motorcycle_brand
+  text: Name a motorcycle brand.
+  template: name
+  norm: phrase
+  category: motorcycle brand
+  n_sources: 2
+  expected: 'prototype: harley-davidson; alternatives: honda, yamaha, kawasaki'
+  nocontext_top: honda 4/5
+- id: r8_0434_milkshake
+  text: Name a milkshake.
+  template: name
+  norm: phrase
+  category: milkshake
+  n_sources: 2
+  expected: 'prototype: chocolate milkshake; alternatives: vanilla milkshake, strawberry milkshake, chocolate'
+  nocontext_top: chocolate milkshake 5/5
+- id: r8_0435_dog_breed
+  text: Name a dog breed.
+  template: name
+  norm: phrase
+  category: dog breed
+  n_sources: 2
+  expected: 'prototype: labrador retriever; alternatives: poodle, german shepherd, bulldog'
+  nocontext_top: golden retriever 3/5
+- id: r8_0439_cake_flavor
+  text: Name a cake flavor.
+  template: name
+  norm: phrase
+  category: cake flavor
+  n_sources: 2
+  expected: 'prototype: chocolate; alternatives: vanilla, red velvet, carrot'
+  nocontext_top: chocolate 4/5
+- id: r8_0445_squash
+  text: Name a squash.
+  template: name
+  norm: phrase
+  category: squash
+  n_sources: 2
+  expected: 'prototype: butternut squash; alternatives: zucchini, acorn squash, butternut'
+  nocontext_top: butternut squash 5/5
+- id: r8_0447_wrapping_paper
+  text: Name a wrapping paper.
+  template: name
+  norm: phrase
+  category: wrapping paper
+  n_sources: 2
+  expected: 'prototype: gift wrap; alternatives: tissue paper, foil wrap, plain paper'
+  nocontext_top: kraft paper 4/5
+- id: r8_0450_pillow
+  text: Name a pillow.
+  template: name
+  norm: phrase
+  category: pillow
+  n_sources: 2
+  expected: 'prototype: bed pillow; alternatives: body pillow, throw pillow, memory foam pillow'
+  nocontext_top: fluffy 3/5
+- id: r8_0463_philosophy
+  text: Name a philosophy.
+  template: name
+  norm: phrase
+  category: philosophy
+  n_sources: 2
+  expected: 'prototype: existentialism; alternatives: stoicism, utilitarianism, nihilism'
+  nocontext_top: stoicism 5/5
+- id: r8_0478_jacket
+  text: Name a jacket.
+  template: name
+  norm: phrase
+  category: jacket
+  n_sources: 2
+  expected: 'prototype: leather jacket; alternatives: blazer, denim jacket, parka'
+  nocontext_top: denim jacket 5/5
+- id: r8_0479_sugar
+  text: Name a sugar.
+  template: name
+  norm: phrase
+  category: sugar
+  n_sources: 2
+  expected: 'prototype: granulated; alternatives: brown, powdered, raw'
+  nocontext_top: glucose 5/5
+- id: r8_0480_month
+  text: Name a month.
+  template: name
+  norm: phrase
+  category: month
+  n_sources: 2
+  expected: 'prototype: august; alternatives: april, january, december'
+  nocontext_top: january 4/5
+- id: r8_0484_muffin
+  text: Name a muffin.
+  template: name
+  norm: phrase
+  category: muffin
+  n_sources: 2
+  expected: 'prototype: blueberry muffin; alternatives: chocolate chip muffin, bran muffin, chocolate chip'
+  nocontext_top: blueberry muffin 4/5
+- id: r8_0485_film_genre
+  text: Name a film genre.
+  template: name
+  norm: phrase
+  category: film genre
+  n_sources: 2
+  expected: 'prototype: romance; alternatives: drama, action, comedy'
+  nocontext_top: science fiction 4/5
+- id: r8_0491_fairground_food
+  text: Name a fairground food.
+  template: name
+  norm: phrase
+  category: fairground food
+  n_sources: 2
+  expected: 'prototype: candy floss; alternatives: hot dog, toffee apple, popcorn'
+  nocontext_top: cotton candy 4/5
+- id: r8_0496_compass
+  text: Name a type of compass.
+  template: name
+  norm: phrase
+  category: compass
+  n_sources: 2
+  expected: 'prototype: magnetic compass; alternatives: gyrocompass, digital compass, drawing compass'
+  nocontext_top: magnetic compass 5/5
+- id: r8_0506_animal_group
+  text: Name an animal group.
+  template: name
+  norm: phrase
+  category: animal group
+  n_sources: 2
+  expected: 'prototype: herd; alternatives: flock, pack'
+  nocontext_top: mammals 4/5
+- id: r8_0509_body_system
+  text: Name a body system.
+  template: name
+  norm: phrase
+  category: body system
+  n_sources: 2
+  expected: 'prototype: nervous system; alternatives: circulatory system, skeletal system, digestive'
+  nocontext_top: respiratory system 3/5
+- id: r8_0510_pirate
+  text: Name a pirate.
+  template: name
+  norm: phrase
+  category: pirate
+  n_sources: 2
+  expected: 'prototype: blackbeard; alternatives: captain hook, jack sparrow, privateer'
+  nocontext_top: blackbeard 5/5
+- id: r8_0514_hot_spring
+  text: Name a type of hot spring.
+  template: name
+  norm: phrase
+  category: hot spring
+  n_sources: 2
+  expected: 'prototype: yellowstone; alternatives: blue lagoon, pamukkale, rotorua'
+  nocontext_top: geyser 5/5
+- id: r8_0520_contract
+  text: Name a contract.
+  template: name
+  norm: phrase
+  category: contract
+  n_sources: 2
+  expected: 'prototype: lease; alternatives: rental agreement, warranty, subscription'
+  nocontext_top: employment contract 2/5
+- id: r8_0521_demon
+  text: Name a demon.
+  template: name
+  norm: phrase
+  category: demon
+  n_sources: 2
+  expected: 'prototype: lucifer; alternatives: beelzebub, asmodeus, lilith'
+  nocontext_top: azazel 3/5
+- id: r8_0523_skin_care_product
+  text: Name a skin care product.
+  template: name
+  norm: phrase
+  category: skin care product
+  n_sources: 2
+  expected: 'prototype: moisturizer; alternatives: serum, toner, sunscreen'
+  nocontext_top: moisturizer 5/5
+- id: r8_0546_puzzle
+  text: Name a puzzle.
+  template: name
+  norm: phrase
+  category: puzzle
+  n_sources: 2
+  expected: 'prototype: jigsaw puzzle; alternatives: crossword, rubik''s cube, riddle'
+  nocontext_top: crossword puzzle 4/5
+- id: r8_0557_lipid
+  text: Name a lipid.
+  template: name
+  norm: phrase
+  category: lipid
+  n_sources: 2
+  expected: 'prototype: cholesterol; alternatives: triglyceride, phospholipid, wax'
+  nocontext_top: cholesterol 5/5
+- id: r8_0558_scent
+  text: Name a scent.
+  template: name
+  norm: phrase
+  category: scent
+  n_sources: 2
+  expected: 'prototype: floral; alternatives: citrus, woody, rose'
+  nocontext_top: lavender 3/5
+- id: r8_0559_wildflower
+  text: Name a wildflower.
+  template: name
+  norm: phrase
+  category: wildflower
+  n_sources: 2
+  expected: 'prototype: dandelion; alternatives: lavender, sunflower, bluebell'
+  nocontext_top: bluebell 3/5
+- id: r8_0561_roman_god
+  text: Name a roman god.
+  template: name
+  norm: phrase
+  category: roman god
+  n_sources: 2
+  expected: 'prototype: jupiter; alternatives: mars, venus, neptune'
+  nocontext_top: jupiter 4/5
+- id: r8_0562_tomato
+  text: Name a tomato.
+  template: name
+  norm: phrase
+  category: tomato
+  n_sources: 2
+  expected: 'prototype: roma tomato; alternatives: cherry tomato, beefsteak tomato, beefsteak'
+  nocontext_top: roma 4/5
+- id: r8_0565_flooring_material
+  text: Name a flooring material.
+  template: name
+  norm: phrase
+  category: flooring material
+  n_sources: 2
+  expected: 'prototype: carpet; alternatives: tile, hardwood, carpet'
+  nocontext_top: hardwood 5/5
+- id: r8_0573_knife
+  text: Name a knife.
+  template: name
+  norm: phrase
+  category: knife
+  n_sources: 2
+  expected: 'prototype: chef''s knife; alternatives: paring knife, bread knife, steak knife'
+  nocontext_top: chefs knife 4/5
+- id: r8_0577_celebration
+  text: Name a celebration.
+  template: name
+  norm: phrase
+  category: celebration
+  n_sources: 2
+  expected: 'prototype: birthday party; alternatives: anniversary, wedding, graduation'
+  nocontext_top: birthday party 4/5
+- id: r8_0579_chord
+  text: Name a chord.
+  template: name
+  norm: phrase
+  category: chord
+  n_sources: 2
+  expected: 'prototype: major chord; alternatives: minor chord, seventh chord, diminished chord'
+  nocontext_top: c major 4/5
+- id: r8_0580_astronomical_event
+  text: Name an astronomical event.
+  template: name
+  norm: phrase
+  category: astronomical event
+  n_sources: 2
+  expected: 'prototype: eclipse; alternatives: solstice, meteor shower, conjunction'
+  nocontext_top: solar eclipse 4/5
+- id: r8_0598_magic_spell
+  text: Name a magic spell.
+  template: name
+  norm: phrase
+  category: magic spell
+  n_sources: 2
+  expected: 'prototype: abracadabra; alternatives: lumos, alohomora, expelliarmus'
+  nocontext_top: lumos 2/5
+- id: r8_0604_texture
+  text: Name a type of texture.
+  template: name
+  norm: phrase
+  category: texture
+  n_sources: 2
+  expected: 'prototype: smooth; alternatives: rough, soft, sticky'
+  nocontext_top: rough 4/5
+- id: r8_0607_sports_drink
+  text: Name a sports drink.
+  template: name
+  norm: phrase
+  category: sports drink
+  n_sources: 2
+  expected: 'prototype: gatorade; alternatives: powerade, bodyarmor, nuun'
+  nocontext_top: gatorade 5/5
+- id: r8_0614_election_feature
+  text: Name a type of election feature.
+  template: name
+  norm: phrase
+  category: election feature
+  n_sources: 1
+  expected: 'prototype: ballot; alternatives: polling station, campaign'
+  nocontext_top: ranked-choice voting 4/5
+- id: r8_0615_gift_wrap_pattern
+  text: Name a gift wrap pattern.
+  template: name
+  norm: phrase
+  category: gift wrap pattern
+  n_sources: 1
+  expected: 'prototype: stripes; alternatives: polka dots, solid'
+  nocontext_top: polka dots 5/5
+- id: r8_0616_career
+  text: Name a career.
+  template: name
+  norm: phrase
+  category: career
+  n_sources: 1
+  expected: 'prototype: teacher; alternatives: doctor, lawyer, engineer'
+  nocontext_top: software engineer 4/5
+- id: r8_0621_cyclop
+  text: Name a cyclop.
+  template: name
+  norm: phrase
+  category: cyclop
+  n_sources: 1
+  expected: 'prototype: polyphemus; alternatives: one-eyed giant'
+  nocontext_top: polyphemus 5/5
+- id: r8_0630_wood_use
+  text: Name a wood use.
+  template: name
+  norm: phrase
+  category: wood use
+  n_sources: 1
+  expected: 'prototype: furniture; alternatives: firewood, paper'
+  nocontext_top: furniture 5/5
+- id: r8_0634_music_notation
+  text: Name a music notation.
+  template: name
+  norm: phrase
+  category: music notation
+  n_sources: 1
+  expected: 'prototype: staff notation; alternatives: tablature, solfège, numbered musical notation'
+  nocontext_top: treble clef 2/5
+- id: r8_0637_beaker
+  text: Name a beaker.
+  template: name
+  norm: phrase
+  category: beaker
+  n_sources: 1
+  expected: 'prototype: glass beaker; alternatives: plastic beaker, graduated beaker, griffin beaker'
+  nocontext_top: beaker 2/5
+- id: r8_0653_flower_reproductive_pa
+  text: Name a flower reproductive part.
+  template: name
+  norm: phrase
+  category: flower reproductive part
+  n_sources: 1
+  expected: 'prototype: stamen; alternatives: pistil, petal'
+  nocontext_top: stamen 4/5
+- id: r8_0668_remedy_type
+  text: Name a remedy type.
+  template: name
+  norm: phrase
+  category: remedy type
+  n_sources: 1
+  expected: 'prototype: herbal; alternatives: over-the-counter, prescription'
+  nocontext_top: herbal remedy 5/5
+- id: r8_0671_fictional_city
+  text: Name a fictional city.
+  template: name
+  norm: phrase
+  category: fictional city
+  n_sources: 1
+  expected: 'prototype: gotham city; alternatives: metropolis, atlantis, el dorado'
+  nocontext_top: gotham city 5/5
+- id: r8_0675_cheese_aging
+  text: Name a type of cheese aging.
+  template: name
+  norm: phrase
+  category: cheese aging
+  n_sources: 1
+  expected: 'prototype: aged; alternatives: fresh, semi-aged'
+  nocontext_top: cave aging 2/5
+- id: r8_0689_fairy
+  text: Name a fairy.
+  template: name
+  norm: phrase
+  category: fairy
+  n_sources: 1
+  expected: 'prototype: fairy; alternatives: elf, gnome, tinkerbell'
+  nocontext_top: tinker bell 5/5
+- id: r8_0692_textile_pattern
+  text: Name a textile pattern.
+  template: name
+  norm: phrase
+  category: textile pattern
+  n_sources: 1
+  expected: 'prototype: plaid; alternatives: paisley, houndstooth'
+  nocontext_top: herringbone 2/5
+- id: r8_0708_sparkling_wine
+  text: Name a sparkling wine.
+  template: name
+  norm: phrase
+  category: sparkling wine
+  n_sources: 1
+  expected: 'prototype: champagne; alternatives: prosecco, cava, crémant'
+  nocontext_top: champagne 5/5
+- id: r8_0710_animal_feather_type
+  text: Name an animal feather type.
+  template: name
+  norm: phrase
+  category: animal feather type
+  n_sources: 1
+  expected: 'prototype: contour feather; alternatives: down feather, filoplume'
+  nocontext_top: down feather 3/5
+- id: r8_0715_sour_candy
+  text: Name a sour candy.
+  template: name
+  norm: phrase
+  category: sour candy
+  n_sources: 1
+  expected: 'prototype: sour patch kids; alternatives: warheads, lemonheads, sour skittles'
+  nocontext_top: warheads 3/5
+- id: r8_0720_form_of_media
+  text: Name a form of media.
+  template: name
+  norm: phrase
+  category: form of media
+  n_sources: 1
+  expected: 'prototype: podcast; alternatives: radio, television'
+  nocontext_top: television 5/5
+- id: r8_0722_tv_channel
+  text: Name a tv channel.
+  template: name
+  norm: phrase
+  category: tv channel
+  n_sources: 1
+  expected: 'prototype: hbo?; alternatives: "tv network | hbo | nbc, abc" — news network covered but tv network broader. hmm, similar. maybe skip; or "cartoon channel"? cartoon network... skip maybe. could
+    do "tv show genre"? covered by movie genre... skip'
+  nocontext_top: bbc one 2/5
+- id: r8_0724_ham
+  text: Name a ham.
+  template: name
+  norm: phrase
+  category: ham
+  n_sources: 1
+  expected: 'prototype: honey ham; alternatives: black forest ham, prosciutto'
+  nocontext_top: prosciutto 3/5
+- id: r8_0737_tea_variety
+  text: Name a tea variety.
+  template: name
+  norm: phrase
+  category: tea variety
+  n_sources: 1
+  expected: 'prototype: green tea; alternatives: black tea, earl grey, chamomile'
+  nocontext_top: earl grey 5/5
+- id: r8_0738_demon
+  text: Name a demon.
+  template: name
+  norm: phrase
+  category: demon
+  n_sources: 1
+  expected: 'prototype: demon; alternatives: devil, imp, satan'
+  nocontext_top: astaroth 2/5
+- id: r8_0757_dwelling_type
+  text: Name a dwelling type.
+  template: name
+  norm: phrase
+  category: dwelling type
+  n_sources: 1
+  expected: 'prototype: apartment; alternatives: house, condo — overlaps. "type of home | apartment | house, townhouse". hmm "part of a house" covers house. maybe include "house style" instead: "house style
+    | ranch | colonial'
+  nocontext_top: house 3/5
+- id: r8_0766_poem_type
+  text: Name a poem type.
+  template: name
+  norm: phrase
+  category: poem type
+  n_sources: 1
+  expected: 'prototype: sonnet; alternatives: haiku, limerick'
+  nocontext_top: sonnet 4/5
+- id: r8_0767_lens
+  text: Name a type of lens.
+  template: name
+  norm: phrase
+  category: lens
+  n_sources: 1
+  expected: 'prototype: 50mm prime; alternatives: wide-angle, telephoto'
+  nocontext_top: convex lens 5/5
+- id: r8_0773_rocket
+  text: Name a rocket.
+  template: name
+  norm: phrase
+  category: rocket
+  n_sources: 1
+  expected: 'prototype: saturn v; alternatives: falcon 9, space shuttle'
+  nocontext_top: saturn v 5/5
+- id: r8_0780_tie
+  text: Name a tie.
+  template: name
+  norm: phrase
+  category: tie
+  n_sources: 1
+  expected: 'prototype: necktie; alternatives: bow tie, ascot, bolo'
+  nocontext_top: necktie 5/5
+- id: r8_0782_trade
+  text: Name a trade.
+  template: name
+  norm: phrase
+  category: trade
+  n_sources: 1
+  expected: 'prototype: carpenter; alternatives: plumber, electrician'
+  nocontext_top: plumbing 2/5
+- id: r8_0787_rainforest
+  text: Name a rainforest.
+  template: name
+  norm: phrase
+  category: rainforest
+  n_sources: 1
+  expected: 'prototype: amazon rainforest; alternatives: congo rainforest, borneo rainforest, daintree rainforest'
+  nocontext_top: amazon rainforest 5/5
+- id: r8_0807_ukulele
+  text: Name an ukulele.
+  template: name
+  norm: phrase
+  category: ukulele
+  n_sources: 1
+  expected: 'prototype: soprano ukulele; alternatives: concert ukulele, tenor ukulele, baritone ukulele'
+  nocontext_top: uke skywalker 2/5
+- id: r8_0817_bird_migration_season
+  text: Name a bird migration season.
+  template: name
+  norm: phrase
+  category: bird migration season
+  n_sources: 1
+  expected: 'prototype: spring; alternatives: autumn, winter'
+  nocontext_top: spring migration 5/5
+- id: r8_0825_urodele
+  text: Name an urodele.
+  template: name
+  norm: phrase
+  category: urodele
+  n_sources: 1
+  expected: 'prototype: newt; alternatives: salamander, sirens'
+  nocontext_top: salamander 4/5
+- id: r8_0826_brewery_product
+  text: Name a brewery product.
+  template: name
+  norm: phrase
+  category: brewery product
+  n_sources: 1
+  expected: 'prototype: ale; alternatives: lager, stout'
+  nocontext_top: beer 4/5
+- id: r8_0827_russian_novelist
+  text: Name a russian novelist.
+  template: name
+  norm: phrase
+  category: russian novelist
+  n_sources: 1
+  expected: 'prototype: tolstoy; alternatives: dostoevsky, chekhov, nabokov'
+  nocontext_top: leo tolstoy 5/5
+- id: r8_0842_metric_prefix
+  text: Name a metric prefix.
+  template: name
+  norm: phrase
+  category: metric prefix
+  n_sources: 1
+  expected: 'prototype: kilo; alternatives: mega, milli — good specialized (not math per se'
+  nocontext_top: kilo- 5/5
+- id: r8_0847_fictional_villain
+  text: Name a fictional villain.
+  template: name
+  norm: phrase
+  category: fictional villain
+  n_sources: 1
+  expected: 'prototype: voldemort; alternatives: darth vader, sauron, the joker'
+  nocontext_top: darth vader 5/5
+- id: r8_0850_wallet_material
+  text: Name a wallet material.
+  template: name
+  norm: phrase
+  category: wallet material
+  n_sources: 1
+  expected: 'prototype: leather; alternatives: canvas, nylon, synthetic'
+  nocontext_top: leather 5/5
+- id: r8_0856_carpet
+  text: Name a carpet.
+  template: name
+  norm: phrase
+  category: carpet
+  n_sources: 1
+  expected: 'prototype: shag carpet; alternatives: berber carpet, persian rug, sisal'
+  nocontext_top: persian carpet 3/5
+- id: r8_0861_cactus_flower_color
+  text: Name a cactus flower color.
+  template: name
+  norm: phrase
+  category: cactus flower color
+  n_sources: 1
+  expected: 'prototype: yellow; alternatives: red, pink'
+  nocontext_top: pink 5/5
+- id: r8_0867_fictional_planet
+  text: Name a fictional planet.
+  template: name
+  norm: phrase
+  category: fictional planet
+  n_sources: 1
+  expected: 'prototype: tatooine; alternatives: vulcan, krypton, arrakis'
+  nocontext_top: alderaan 4/5
+- id: r8_0881_cologne
+  text: Name a cologne.
+  template: name
+  norm: phrase
+  category: cologne
+  n_sources: 1
+  expected: 'prototype: acqua di giò; alternatives: bleu de chanel, drakkar noir, polo'
+  nocontext_top: dior sauvage 5/5
+- id: r8_0883_handbag_style
+  text: Name a handbag style.
+  template: name
+  norm: phrase
+  category: handbag style
+  n_sources: 1
+  expected: 'prototype: satchel; alternatives: crossbody, wristlet'
+  nocontext_top: tote bag 5/5
+- id: r8_0893_bag
+  text: Name a bag.
+  template: name
+  norm: phrase
+  category: bag
+  n_sources: 1
+  expected: 'prototype: handbag; alternatives: backpack, suitcase'
+  nocontext_top: tote 3/5
+- id: r8_0895_defensive_structure
+  text: Name a type of defensive structure.
+  template: name
+  norm: phrase
+  category: defensive structure
+  n_sources: 1
+  expected: 'prototype: castle; alternatives: fortress, bunker'
+  nocontext_top: castle 2/5
+- id: r8_0896_method_of_storytelling
+  text: Name a type of method of storytelling.
+  template: name
+  norm: phrase
+  category: method of storytelling
+  n_sources: 1
+  expected: 'prototype: oral tradition; alternatives: written narrative, film'
+  nocontext_top: type of storytelling method is first-person narration 1/5
+- id: r8_0907_insect_wing
+  text: Name a type of insect wing.
+  template: name
+  norm: phrase
+  category: insect wing
+  n_sources: 1
+  expected: 'prototype: membranous; alternatives: elytra, halteres'
+  nocontext_top: membranous wing 3/5
+- id: r8_0922_tread
+  text: Name a tread.
+  template: name
+  norm: phrase
+  category: tread
+  n_sources: 1
+  expected: 'prototype: slick; alternatives: knobby, semi-slick'
+  nocontext_top: michelin 1/5
+- id: r8_0934_chemical_bond
+  text: Name a chemical bond.
+  template: name
+  norm: phrase
+  category: chemical bond
+  n_sources: 1
+  expected: 'prototype: ionic; alternatives: covalent, metallic'
+  nocontext_top: covalent bond 5/5
+- id: r8_0939_boxing_punch
+  text: Name a boxing punch.
+  template: name
+  norm: phrase
+  category: boxing punch
+  n_sources: 1
+  expected: 'prototype: jab; alternatives: cross, hook, uppercut'
+  nocontext_top: jab 5/5
+- id: r8_0941_stunt
+  text: Name a stunt.
+  template: name
+  norm: phrase
+  category: stunt
+  n_sources: 1
+  expected: 'prototype: endo; alternatives: stoppie, burnout'
+  nocontext_top: backflip 5/5
+- id: r8_0955_thanksgiving_side_dish
+  text: Name a thanksgiving side dish.
+  template: name
+  norm: phrase
+  category: thanksgiving side dish
+  n_sources: 1
+  expected: 'prototype: stuffing; alternatives: mashed potatoes, green bean casserole — good'
+  nocontext_top: mashed potatoes 5/5
+- id: r8_0956_web_browser
+  text: Name a web browser.
+  template: name
+  norm: phrase
+  category: web browser
+  n_sources: 1
+  expected: 'prototype: chrome; alternatives: safari, firefox'
+  nocontext_top: google chrome 3/5
+- id: r8_0961_fish_scale_shape
+  text: Name a fish scale shape.
+  template: name
+  norm: phrase
+  category: fish scale shape
+  n_sources: 1
+  expected: 'prototype: round; alternatives: cycloid, ctenoid'
+  nocontext_top: cycloid 4/5
+- id: r8_0963_comic_book_villain
+  text: Name a comic book villain.
+  template: name
+  norm: phrase
+  category: comic book villain
+  n_sources: 1
+  expected: 'prototype: joker; alternatives: lex luthor, magneto, green goblin'
+  nocontext_top: joker 5/5
+- id: r8_0967_hygiene_product
+  text: Name a hygiene product.
+  template: name
+  norm: phrase
+  category: hygiene product
+  n_sources: 1
+  expected: 'prototype: shampoo; alternatives: deodorant, conditioner, mouthwash'
+  nocontext_top: toothpaste 5/5
+- id: r8_0973_kappa
+  text: Name a kappa.
+  template: name
+  norm: phrase
+  category: kappa
+  n_sources: 1
+  expected: 'prototype: water imp; alternatives: river child'
+  nocontext_top: kappa 3/5
+- id: r8_0988_financial_document
+  text: Name a type of financial document.
+  template: name
+  norm: phrase
+  category: financial document
+  n_sources: 1
+  expected: 'prototype: receipt; alternatives: invoice, statement, contract'
+  nocontext_top: invoice 5/5
+- id: r8_0989_sewing_term
+  text: Name a sewing term.
+  template: name
+  norm: phrase
+  category: sewing term
+  n_sources: 1
+  expected: 'prototype: hem? — "sewing term; alternatives: hem | stitch, bobbin"? maybe skip. could do "knitting term"? skip'
+  nocontext_top: basting 3/5
+- id: r8_0997_ice_formation
+  text: Name an ice formation.
+  template: name
+  norm: phrase
+  category: ice formation
+  n_sources: 1
+  expected: 'prototype: glacier; alternatives: iceberg, ice sheet'
+  nocontext_top: glacier 5/5
+- id: r8_1001_spider
+  text: Name a spider.
+  template: name
+  norm: phrase
+  category: spider
+  n_sources: 1
+  expected: 'prototype: black widow; alternatives: tarantula, wolf spider — "type of spider"'
+  nocontext_top: tarantula 2/5
+- id: r8_1002_noble_gas
+  text: Name a type of noble gas.
+  template: name
+  norm: phrase
+  category: noble gas
+  n_sources: 1
+  expected: 'prototype: helium; alternatives: argon, xenon'
+  nocontext_top: helium 5/5
+- id: r8_1003_jacket_style
+  text: Name a jacket style.
+  template: name
+  norm: phrase
+  category: jacket style
+  n_sources: 1
+  expected: 'prototype: denim jacket; alternatives: leather jacket, bomber, blazer'
+  nocontext_top: bomber jacket 4/5
+- id: r8_1012_form_of_heat
+  text: Name a form of heat.
+  template: name
+  norm: phrase
+  category: form of heat
+  n_sources: 1
+  expected: 'prototype: conduction; alternatives: convection, radiation'
+  nocontext_top: thermal energy 3/5
+- id: r8_1026_grocery_store_aisle
+  text: Name a grocery store aisle.
+  template: name
+  norm: phrase
+  category: grocery store aisle
+  n_sources: 1
+  expected: 'prototype: produce; alternatives: dairy, frozen foods, bakery'
+  nocontext_top: cereal aisle 4/5
+- id: r8_1030_fashion_accessory
+  text: Name a fashion accessory.
+  template: name
+  norm: phrase
+  category: fashion accessory
+  n_sources: 1
+  expected: 'prototype: belt; alternatives: scarf, hat, sunglasses'
+  nocontext_top: scarf 5/5
+- id: r8_1033_beard_style
+  text: Name a beard style.
+  template: name
+  norm: phrase
+  category: beard style
+  n_sources: 1
+  expected: 'prototype: goatee; alternatives: full beard, moustache — good specialized! include'
+  nocontext_top: goatee 5/5
+- id: r8_1043_historical_building
+  text: Name a type of historical building.
+  template: name
+  norm: phrase
+  category: historical building
+  n_sources: 1
+  expected: 'prototype: cathedral; alternatives: castle, fort'
+  nocontext_top: castle 5/5
+- id: r8_1045_fastening_device
+  text: Name a fastening device.
+  template: name
+  norm: phrase
+  category: fastening device
+  n_sources: 1
+  expected: 'prototype: nail; alternatives: screw, bolt, staple'
+  nocontext_top: screw 4/5
+- id: r8_1047_ball_sport
+  text: Name a ball sport.
+  template: name
+  norm: phrase
+  category: ball sport
+  n_sources: 1
+  expected: 'prototype: basketball; alternatives: soccer, tennis, baseball'
+  nocontext_top: soccer 4/5
+- id: r8_1050_pizza_chain
+  text: Name a pizza chain.
+  template: name
+  norm: phrase
+  category: pizza chain
+  n_sources: 1
+  expected: 'prototype: domino''s; alternatives: pizza hut, papa john''s — good'
+  nocontext_top: dominos 4/5
+- id: r8_1052_doll_brand
+  text: Name a doll brand.
+  template: name
+  norm: phrase
+  category: doll brand
+  n_sources: 1
+  expected: 'prototype: barbie; alternatives: american girl, bratz, cabbage patch kids'
+  nocontext_top: barbie 5/5
+- id: r8_1066_rotor
+  text: Name a rotor.
+  template: name
+  norm: phrase
+  category: rotor
+  n_sources: 1
+  expected: 'prototype: brake rotor; alternatives: drilled, slotted'
+  nocontext_top: enigma 1/5
+- id: r8_1078_gasket
+  text: Name a gasket.
+  template: name
+  norm: phrase
+  category: gasket
+  n_sources: 1
+  expected: 'prototype: head gasket; alternatives: manifold, exhaust'
+  nocontext_top: rubber o-ring 2/5
+- id: r8_1079_orchestras_instrument
+  text: Name a type of orchestras instrument.
+  template: name
+  norm: phrase
+  category: orchestras instrument
+  n_sources: 1
+  expected: 'prototype: violin; alternatives: cello, flute, trumpet'
+  nocontext_top: violin 5/5
+- id: r8_1091_bread_loaf
+  text: Name a bread loaf.
+  template: name
+  norm: phrase
+  category: bread loaf
+  n_sources: 1
+  expected: 'prototype: whole wheat; alternatives: white, multigrain'
+  nocontext_top: sourdough 5/5
+- id: r8_1095_minotaur
+  text: Name a minotaur.
+  template: name
+  norm: phrase
+  category: minotaur
+  n_sources: 1
+  expected: 'prototype: asterion; alternatives: bull-headed man of crete'
+  nocontext_top: asterion 5/5
+- id: r8_1101_part_of_a_car
+  text: Name a part of a car.
+  template: name
+  norm: phrase
+  category: part of a car
+  n_sources: 1
+  expected: 'prototype: engine; alternatives: wheel, steering wheel'
+  nocontext_top: wheel 4/5
+- id: r8_1103_cattle_breed
+  text: Name a cattle breed.
+  template: name
+  norm: phrase
+  category: cattle breed
+  n_sources: 1
+  expected: 'prototype: angus; alternatives: holstein, hereford, brahman'
+  nocontext_top: angus 3/5
+- id: r8_1107_lettuce
+  text: Name a lettuce.
+  template: name
+  norm: phrase
+  category: lettuce
+  n_sources: 1
+  expected: 'prototype: iceberg lettuce; alternatives: romaine, arugula'
+  nocontext_top: romaine 4/5
+- id: r8_1113_ball
+  text: Name a ball.
+  template: name
+  norm: phrase
+  category: ball
+  n_sources: 1
+  expected: 'prototype: football; alternatives: tennis ball, golf ball'
+  nocontext_top: basketball 3/5
+- id: r8_1117_antelope
+  text: Name an antelope.
+  template: name
+  norm: phrase
+  category: antelope
+  n_sources: 1
+  expected: 'prototype: gazelle; alternatives: impala, kudu'
+  nocontext_top: gazelle 2/5
+- id: r8_1118_herd_animal
+  text: Name a herd animal.
+  template: name
+  norm: phrase
+  category: herd animal
+  n_sources: 1
+  expected: 'prototype: wildebeest; alternatives: zebra, buffalo'
+  nocontext_top: elephant 5/5
+- id: r8_1127_flower_used_in_wedding
+  text: Name a type of flower used in wedding.
+  template: name
+  norm: phrase
+  category: flower used in wedding
+  n_sources: 1
+  expected: 'prototype: peony; alternatives: baby''s breath, lily of the valley, gardenia'
+  nocontext_top: roses 4/5
+- id: r8_1149_echino
+  text: Name an echino.
+  template: name
+  norm: phrase
+  category: echino
+  n_sources: 1
+  expected: 'prototype: iberian ribbed newt; alternatives: spotted, alpine'
+  nocontext_top: sea urchin 3/5
+- id: r8_1154_celebration_item
+  text: Name a celebration item.
+  template: name
+  norm: phrase
+  category: celebration item
+  n_sources: 1
+  expected: 'prototype: balloon; alternatives: confetti, streamer, cake'
+  nocontext_top: birthday cake 3/5
+- id: r8_1158_barbecue
+  text: Name a barbecue.
+  template: name
+  norm: phrase
+  category: barbecue
+  n_sources: 1
+  expected: 'prototype: pulled pork; alternatives: brisket, ribs, chicken'
+  nocontext_top: korean barbecue 2/5
+- id: r8_1164_horse_race
+  text: Name a horse race.
+  template: name
+  norm: phrase
+  category: horse race
+  n_sources: 1
+  expected: 'prototype: kentucky derby; alternatives: grand national, preakness, melbourne cup'
+  nocontext_top: kentucky derby 5/5
+- id: r8_1177_organic_compound
+  text: Name an organic compound.
+  template: name
+  norm: phrase
+  category: organic compound
+  n_sources: 1
+  expected: 'prototype: glucose; alternatives: ethanol, methane'
+  nocontext_top: ethanol 5/5
+- id: r8_1180_tape
+  text: Name a tape.
+  template: name
+  norm: phrase
+  category: tape
+  n_sources: 1
+  expected: 'prototype: duct tape; alternatives: masking, packing'
+  nocontext_top: scotch tape 4/5
+- id: r8_1191_bulb_vegetable
+  text: Name a bulb vegetable.
+  template: name
+  norm: phrase
+  category: bulb vegetable
+  n_sources: 1
+  expected: 'prototype: onion; alternatives: garlic, shallot, leek'
+  nocontext_top: onion 5/5
+- id: r8_1203_cocktail
+  text: Name a cocktail.
+  template: name
+  norm: phrase
+  category: cocktail
+  n_sources: 1
+  expected: 'prototype: martini; alternatives: mojito, margarita, daiquiri'
+  nocontext_top: margarita 2/5
+- id: r8_1205_sports_apparel
+  text: Name a sports apparel.
+  template: name
+  norm: phrase
+  category: sports apparel
+  n_sources: 1
+  expected: 'prototype: sneakers; alternatives: jersey, helmet, cleats'
+  nocontext_top: jersey 3/5
+- id: r8_1212_mean_of_communication
+  text: Name a mean of communication.
+  template: name
+  norm: phrase
+  category: mean of communication
+  n_sources: 1
+  expected: 'prototype: letter; alternatives: email, phone call'
+  nocontext_top: telephone 5/5
+- id: r8_1213_unit_of_length
+  text: Name an unit of length.
+  template: name
+  norm: phrase
+  category: unit of length
+  n_sources: 1
+  expected: 'prototype: metre; alternatives: inch, foot, mile'
+  nocontext_top: meter 5/5
+- id: r8_1218_building_toy
+  text: Name a building toy.
+  template: name
+  norm: phrase
+  category: building toy
+  n_sources: 1
+  expected: 'prototype: lego; alternatives: wooden blocks, lincoln logs, k''nex'
+  nocontext_top: lego 4/5
+- id: r8_1219_hospital_department
+  text: Name a type of hospital department.
+  template: name
+  norm: phrase
+  category: hospital department
+  n_sources: 1
+  expected: 'prototype: emergency; alternatives: pediatrics, oncology'
+  nocontext_top: emergency department 5/5
+- id: r8_1226_candlestick
+  text: Name a candlestick.
+  template: name
+  norm: phrase
+  category: candlestick
+  n_sources: 1
+  expected: 'prototype: taper; alternatives: pillar, tea light, votive'
+  nocontext_top: hammer 5/5
+- id: r8_1227_tv_brand
+  text: Name a tv brand.
+  template: name
+  norm: phrase
+  category: tv brand
+  n_sources: 1
+  expected: 'prototype: samsung; alternatives: lg, vizio — electronics brand covered (samsung answer). skip'
+  nocontext_top: samsung 5/5
+- id: r8_1236_form_of_cooking
+  text: Name a type of form of cooking.
+  template: name
+  norm: phrase
+  category: form of cooking
+  n_sources: 1
+  expected: 'prototype: grill; alternatives: bake, boil'
+  nocontext_top: baking 5/5
+- id: r8_1249_reef_feature
+  text: Name a type of reef feature.
+  template: name
+  norm: phrase
+  category: reef feature
+  n_sources: 1
+  expected: 'prototype: lagoon; alternatives: atoll, reef crest'
+  nocontext_top: barrier reef 5/5
+- id: r8_1276_method_of_conservation
+  text: Name a method of conservation.
+  template: name
+  norm: phrase
+  category: method of conservation
+  n_sources: 1
+  expected: 'prototype: recycling; alternatives: composting, reforestation'
+  nocontext_top: recycling 3/5
+- id: r8_1279_amplifier
+  text: Name an amplifier.
+  template: name
+  norm: phrase
+  category: amplifier
+  n_sources: 1
+  expected: 'prototype: stereo amp; alternatives: guitar, headphone'
+  nocontext_top: marshall jcm800 4/5
+- id: r8_1280_yeti
+  text: Name a yeti.
+  template: name
+  norm: phrase
+  category: yeti
+  n_sources: 1
+  expected: 'prototype: abominable snowman; alternatives: himalayan monster'
+  nocontext_top: yeti mcyeti 2/5
+- id: r8_1285_refrigerator
+  text: Name a refrigerator.
+  template: name
+  norm: phrase
+  category: refrigerator
+  n_sources: 1
+  expected: 'prototype: top-freezer refrigerator; alternatives: side-by-side refrigerator, french-door refrigerator, mini fridge'
+  nocontext_top: whirlpool 2/5
+- id: r8_1289_park_feature
+  text: Name a type of park feature.
+  template: name
+  norm: phrase
+  category: park feature
+  n_sources: 1
+  expected: 'prototype: playground; alternatives: picnic area, trails'
+  nocontext_top: playground 5/5
+- id: r8_1293_medical_equipment
+  text: Name a type of medical equipment.
+  template: name
+  norm: phrase
+  category: medical equipment
+  n_sources: 1
+  expected: 'prototype: stethoscope; alternatives: thermometer, syringe, blood pressure cuff'
+  nocontext_top: stethoscope 5/5
+- id: r8_1294_treatment
+  text: Name a type of treatment.
+  template: name
+  norm: phrase
+  category: treatment
+  n_sources: 1
+  expected: 'prototype: antibiotic; alternatives: surgery, therapy'
+  nocontext_top: physical therapy 3/5
+- id: r8_1300_migratory_bird
+  text: Name a migratory bird.
+  template: name
+  norm: phrase
+  category: migratory bird
+  n_sources: 1
+  expected: 'prototype: goose; alternatives: robin, swallow — maybe too specific. could include "migratory animal | goose | monarch butterfly, salmon". hmm'
+  nocontext_top: arctic tern 5/5
+- id: r8_1301_game_fish
+  text: Name a game fish.
+  template: name
+  norm: phrase
+  category: game fish
+  n_sources: 1
+  expected: 'prototype: trout; alternatives: bass, salmon, perch'
+  nocontext_top: bass 5/5
+- id: r8_1302_gemstone_clarity
+  text: Name a gemstone clarity.
+  template: name
+  norm: phrase
+  category: gemstone clarity
+  n_sources: 1
+  expected: 'prototype: flawless; alternatives: included, slightly included'
+  nocontext_top: flawless 3/5
+- id: r8_1305_pottery_type
+  text: Name a pottery type.
+  template: name
+  norm: phrase
+  category: pottery type
+  n_sources: 1
+  expected: 'prototype: vase; alternatives: amphora, bowl'
+  nocontext_top: stoneware 3/5
+- id: r8_1306_animal_defense
+  text: Name an animal defense.
+  template: name
+  norm: phrase
+  category: animal defense
+  n_sources: 1
+  expected: 'prototype: camouflage; alternatives: shell, quills'
+  nocontext_top: camouflage 5/5
+- id: r8_1312_action_movie
+  text: Name an action movie.
+  template: name
+  norm: phrase
+  category: action movie
+  n_sources: 1
+  expected: 'prototype: die hard; alternatives: terminator, mad max'
+  nocontext_top: fury road 5/5
+- id: r8_1333_outdoor_adventure
+  text: Name a type of outdoor adventure.
+  template: name
+  norm: phrase
+  category: outdoor adventure
+  n_sources: 1
+  expected: 'prototype: camping; alternatives: hiking, canoeing'
+  nocontext_top: hiking 4/5
+- id: r8_1336_microgreen
+  text: Name a microgreen.
+  template: name
+  norm: phrase
+  category: microgreen
+  n_sources: 1
+  expected: 'prototype: arugula; alternatives: kale, radish, basil'
+  nocontext_top: radish 4/5
+- id: r8_1339_frozen_dessert
+  text: Name a frozen dessert.
+  template: name
+  norm: phrase
+  category: frozen dessert
+  n_sources: 1
+  expected: 'prototype: gelato; alternatives: sorbet, semifreddo, frozen yogurt'
+  nocontext_top: ice cream 5/5
+- id: r8_1348_sound_maker
+  text: Name a sound maker.
+  template: name
+  norm: phrase
+  category: sound maker
+  n_sources: 1
+  expected: 'prototype: bell; alternatives: whistle, drum, siren'
+  nocontext_top: drum 5/5
+- id: r8_1351_fish_swimming_style
+  text: Name a fish swimming style.
+  template: name
+  norm: phrase
+  category: fish swimming style
+  n_sources: 1
+  expected: 'prototype: undulatory; alternatives: oscillatory, jet propulsion'
+  nocontext_top: anguilliform eel-like swimming 2/5
+- id: r8_1355_monster
+  text: Name a monster.
+  template: name
+  norm: phrase
+  category: monster
+  n_sources: 1
+  expected: 'prototype: monster; alternatives: beast, abomination, mutant'
+  nocontext_top: dracula 1/5
+- id: r8_1364_heaven
+  text: Name a heaven.
+  template: name
+  norm: phrase
+  category: heaven
+  n_sources: 1
+  expected: 'prototype: valhalla; alternatives: elysium, nirvana, heaven'
+  nocontext_top: elysium 4/5
+- id: r8_1374_experiment
+  text: Name a type of experiment.
+  template: name
+  norm: phrase
+  category: experiment
+  n_sources: 1
+  expected: 'prototype: physics experiment; alternatives: chemistry experiment, biology experiment'
+  nocontext_top: controlled experiment 5/5
+- id: r8_1378_egg_preparation
+  text: Name an egg preparation.
+  template: name
+  norm: phrase
+  category: egg preparation
+  n_sources: 1
+  expected: 'prototype: scrambled; alternatives: fried, boiled, poached'
+  nocontext_top: scrambled eggs 5/5
+- id: r8_1384_vegetable_seed
+  text: Name a vegetable seed.
+  template: name
+  norm: phrase
+  category: vegetable seed
+  n_sources: 1
+  expected: 'prototype: pumpkin seed; alternatives: sunflower seed, sesame seed'
+  nocontext_top: carrot seed 4/5
+- id: r8_1389_type_of_meteorological
+  text: Name a type of meteorological event.
+  template: name
+  norm: phrase
+  category: type of meteorological event
+  n_sources: 1
+  expected: 'prototype: blizzard; alternatives: heatwave, drought, tornado'
+  nocontext_top: thunderstorm 5/5
+- id: r8_1391_hotel_chain
+  text: Name a hotel chain.
+  template: name
+  norm: phrase
+  category: hotel chain
+  n_sources: 1
+  expected: 'prototype: marriott; alternatives: hilton, holiday inn'
+  nocontext_top: marriott international 5/5
+- id: r8_1392_kebab
+  text: Name a kebab.
+  template: name
+  norm: phrase
+  category: kebab
+  n_sources: 1
+  expected: 'prototype: shish kebab; alternatives: doner, gyro, souvlaki'
+  nocontext_top: doner kebab 2/5
+- id: r8_1394_natural_landform
+  text: Name a natural landform.
+  template: name
+  norm: phrase
+  category: natural landform
+  n_sources: 1
+  expected: 'prototype: volcano; alternatives: canyon, valley'
+  nocontext_top: mountain 5/5
+- id: r8_1399_gemstone_origin_type
+  text: Name a gemstone origin type.
+  template: name
+  norm: phrase
+  category: gemstone origin type
+  n_sources: 1
+  expected: 'prototype: mined; alternatives: lab-created, synthetic'
+  nocontext_top: hydrothermal 1/5
+- id: r8_1401_griffin
+  text: Name a griffin.
+  template: name
+  norm: phrase
+  category: griffin
+  n_sources: 1
+  expected: 'prototype: golden eagle-lion; alternatives: guardian of treasure'
+  nocontext_top: griffin 3/5
+- id: r8_1409_ghost_story
+  text: Name a ghost story.
+  template: name
+  norm: phrase
+  category: ghost story
+  n_sources: 1
+  expected: 'prototype: the turn of the screw; alternatives: the monkey''s paw, the shining'
+  nocontext_top: turn of the screw 2/5
+- id: r8_1423_bitter
+  text: Name a bitter.
+  template: name
+  norm: phrase
+  category: bitter
+  n_sources: 1
+  expected: 'prototype: angostura; alternatives: peychaud''s, orange, celery'
+  nocontext_top: campari 3/5
+- id: r8_1424_shade_of_red
+  text: Name a shade of red.
+  template: name
+  norm: phrase
+  category: shade of red
+  n_sources: 1
+  expected: 'prototype: crimson; alternatives: scarlet, maroon, ruby'
+  nocontext_top: crimson 5/5
+- id: r8_1429_fitness_activity
+  text: Name a fitness activity.
+  template: name
+  norm: phrase
+  category: fitness activity
+  n_sources: 1
+  expected: 'prototype: aerobics; alternatives: yoga, pilates'
+  nocontext_top: swimming 3/5
+- id: r8_1430_physical_sensation
+  text: Name a physical sensation.
+  template: name
+  norm: phrase
+  category: physical sensation
+  n_sources: 1
+  expected: 'prototype: pain; alternatives: pleasure, ticklishness'
+  nocontext_top: warmth 5/5
+- id: r8_1433_major_music_industry_a
+  text: Name a major music industry award.
+  template: name
+  norm: phrase
+  category: major music industry award
+  n_sources: 1
+  expected: 'prototype: grammy award; alternatives: brit award, mtv video music award, billboard music award'
+  nocontext_top: grammy awards 5/5
+- id: r8_1434_needle
+  text: Name a needle.
+  template: name
+  norm: phrase
+  category: needle
+  n_sources: 1
+  expected: 'prototype: sewing needle; alternatives: knitting needle, hypodermic needle, compass needle'
+  nocontext_top: syringe needle 3/5
+- id: r8_1443_notebook_binding
+  text: Name a type of notebook binding.
+  template: name
+  norm: phrase
+  category: notebook binding
+  n_sources: 1
+  expected: 'prototype: spiral binding; alternatives: perfect binding, saddle stitching, case binding'
+  nocontext_top: spiral binding 5/5
+- id: r8_1446_garden_item
+  text: Name a garden item.
+  template: name
+  norm: phrase
+  category: garden item
+  n_sources: 1
+  expected: 'prototype: flower; alternatives: tree, grass, shovel'
+  nocontext_top: trowel 3/5
+- id: r8_1460_visual_art_technique
+  text: Name a visual-art technique.
+  template: name
+  norm: phrase
+  category: visual-art technique
+  n_sources: 1
+  expected: 'prototype: watercolor; alternatives: oil painting, collage'
+  nocontext_top: pointillism 2/5
+- id: r8_1469_musical_scale
+  text: Name a musical scale.
+  template: name
+  norm: phrase
+  category: musical scale
+  n_sources: 1
+  expected: 'prototype: major scale; alternatives: minor scale, pentatonic'
+  nocontext_top: c major 5/5
+- id: r8_1474_pencil
+  text: Name a pencil.
+  template: name
+  norm: phrase
+  category: pencil
+  n_sources: 1
+  expected: 'prototype: graphite pencil; alternatives: coloured pencil, mechanical pencil, charcoal pencil'
+  nocontext_top: pencil 1/5
+- id: r8_1484_tanuki
+  text: Name a tanuki.
+  template: name
+  norm: phrase
+  category: tanuki
+  n_sources: 1
+  expected: 'prototype: raccoon dog; alternatives: japanese trickster'
+  nocontext_top: ponta 2/5
+- id: r8_1488_injury
+  text: Name an injury.
+  template: name
+  norm: phrase
+  category: injury
+  n_sources: 1
+  expected: 'prototype: strain; alternatives: sprain, fracture'
+  nocontext_top: sprained ankle 5/5
+- id: r8_1491_jazz_style
+  text: Name a jazz style.
+  template: name
+  norm: phrase
+  category: jazz style
+  n_sources: 1
+  expected: 'prototype: bebop; alternatives: swing, dixieland, fusion'
+  nocontext_top: bebop 5/5
+- id: r8_1508_shrimp
+  text: Name a shrimp.
+  template: name
+  norm: phrase
+  category: shrimp
+  n_sources: 1
+  expected: 'prototype: tiger shrimp; alternatives: rock shrimp, popcorn shrimp'
+  nocontext_top: cherry shrimp 2/5
+- id: r8_1521_gorgon
+  text: Name a gorgon.
+  template: name
+  norm: phrase
+  category: gorgon
+  n_sources: 1
+  expected: 'prototype: medusa; alternatives: snake hair'
+  nocontext_top: medusa 5/5
+- id: r8_1530_level
+  text: Name a level.
+  template: name
+  norm: phrase
+  category: level
+  n_sources: 1
+  expected: 'prototype: spirit level; alternatives: laser, bubble'
+  nocontext_top: level 1 2/5
+- id: r8_1538_model_airplane
+  text: Name a model airplane.
+  template: name
+  norm: phrase
+  category: model airplane
+  n_sources: 1
+  expected: 'prototype: biplane; alternatives: jet fighter, glider'
+  nocontext_top: cessna 172 5/5
+- id: r8_1541_forest_floor_layer
+  text: Name a forest floor layer.
+  template: name
+  norm: phrase
+  category: forest floor layer
+  n_sources: 1
+  expected: 'prototype: litter layer; alternatives: humus, mineral soil'
+  nocontext_top: litter layer 2/5
+- id: r8_1553_work_of_literature
+  text: Name a type of work of literature.
+  template: name
+  norm: phrase
+  category: work of literature
+  n_sources: 1
+  expected: 'prototype: shakespeare play; alternatives: novel, poem, short story'
+  nocontext_top: novel 4/5
+- id: r8_1563_wheel_size
+  text: Name a wheel size.
+  template: name
+  norm: phrase
+  category: wheel size
+  n_sources: 1
+  expected: 'prototype: 700c; alternatives: 650b, 26-inch'
+  nocontext_top: 26 inches 4/5
+- id: r8_1568_cloud_cover
+  text: Name a cloud cover.
+  template: name
+  norm: phrase
+  category: cloud cover
+  n_sources: 1
+  expected: 'prototype: clear sky; alternatives: overcast, partly cloudy'
+  nocontext_top: cumulus 5/5
+- id: r8_1572_story_type
+  text: Name a story type.
+  template: name
+  norm: phrase
+  category: story type
+  n_sources: 1
+  expected: 'prototype: adventure; alternatives: tragedy, satire'
+  nocontext_top: mystery 3/5
+- id: r8_1579_dna_base
+  text: Name a dna base.
+  template: name
+  norm: phrase
+  category: dna base
+  n_sources: 1
+  expected: 'prototype: adenine; alternatives: thymine, cytosine, guanine'
+  nocontext_top: adenine 5/5
+- id: r8_1581_period_of_the_day
+  text: Name a period of the day.
+  template: name
+  norm: phrase
+  category: period of the day
+  n_sources: 1
+  expected: 'prototype: morning; alternatives: afternoon, evening, midnight'
+  nocontext_top: morning 5/5
+- id: r8_1583_screw
+  text: Name a screw.
+  template: name
+  norm: phrase
+  category: screw
+  n_sources: 1
+  expected: 'prototype: wood screw; alternatives: machine, self-tapping'
+  nocontext_top: phillips-head screw 4/5
+- id: r8_1591_complex_human_emotion
+  text: Name a complex human emotion.
+  template: name
+  norm: phrase
+  category: complex human emotion
+  n_sources: 1
+  expected: 'prototype: nostalgia; alternatives: jealousy, guilt, pride'
+  nocontext_top: ambivalence 5/5
+- id: r8_1596_photographer
+  text: Name a photographer.
+  template: name
+  norm: phrase
+  category: photographer
+  n_sources: 1
+  expected: 'prototype: ansel adams; alternatives: annie leibovitz, henri cartier-bresson'
+  nocontext_top: annie leibovitz 4/5
+- id: r8_1601_holiday_treat
+  text: Name a holiday treat.
+  template: name
+  norm: phrase
+  category: holiday treat
+  n_sources: 1
+  expected: 'prototype: candy; alternatives: cookies, pie'
+  nocontext_top: gingerbread cookies 5/5
+- id: r8_1604_short_story_writer
+  text: Name a short story writer.
+  template: name
+  norm: phrase
+  category: short story writer
+  n_sources: 1
+  expected: 'prototype: edgar allan poe; alternatives: hemingway, chekhov, borges'
+  nocontext_top: o. henry 3/5
+- id: r8_1606_crab
+  text: Name a crab.
+  template: name
+  norm: phrase
+  category: crab
+  n_sources: 1
+  expected: 'prototype: blue crab; alternatives: dungeness crab, king crab'
+  nocontext_top: blue crab 4/5
+- id: r8_1607_memorial
+  text: Name a memorial.
+  template: name
+  norm: phrase
+  category: memorial
+  n_sources: 1
+  expected: 'prototype: war memorial; alternatives: tomb of the unknown soldier, memorial plaque'
+  nocontext_top: lincoln memorial 4/5
+- id: r8_1615_apology_phrase
+  text: Name an apology phrase.
+  template: name
+  norm: phrase
+  category: apology phrase
+  n_sources: 1
+  expected: 'prototype: i''m sorry; alternatives: my bad, forgive me'
+  nocontext_top: im sorry 5/5
+- id: r8_1634_sports_trophy
+  text: Name a sports trophy.
+  template: name
+  norm: phrase
+  category: sports trophy
+  n_sources: 1
+  expected: 'prototype: world cup; alternatives: stanley cup, super bowl'
+  nocontext_top: stanley cup 4/5
+- id: r8_1640_fan_type
+  text: Name a fan type.
+  template: name
+  norm: phrase
+  category: fan type
+  n_sources: 1
+  expected: 'prototype: ceiling fan; alternatives: table fan, standing fan, exhaust fan'
+  nocontext_top: ceiling fan 5/5
+- id: r8_1641_coffee_brewing_device
+  text: Name a coffee brewing device.
+  template: name
+  norm: phrase
+  category: coffee brewing device
+  n_sources: 1
+  expected: 'prototype: french press; alternatives: moka pot'
+  nocontext_top: french press 5/5
+- id: r8_1645_sacred_text
+  text: Name a sacred text.
+  template: name
+  norm: phrase
+  category: sacred text
+  n_sources: 1
+  expected: 'prototype: bible; alternatives: quran, torah'
+  nocontext_top: bible 3/5
+- id: r8_1649_occupation_in_the_art
+  text: Name an occupation in the art.
+  template: name
+  norm: phrase
+  category: occupation in the art
+  n_sources: 1
+  expected: 'prototype: actor; alternatives: musician, dancer, director'
+  nocontext_top: artist 3/5
+- id: r8_1651_life_stage
+  text: Name a type of life stage.
+  template: name
+  norm: phrase
+  category: life stage
+  n_sources: 1
+  expected: 'prototype: childhood; alternatives: adolescence, adulthood'
+  nocontext_top: adolescence 3/5
+- id: r8_1655_file_format
+  text: Name a file format.
+  template: name
+  norm: phrase
+  category: file format
+  n_sources: 1
+  expected: 'prototype: pdf; alternatives: jpeg, mp3'
+  nocontext_top: pdf 5/5
+- id: r8_1660_warrior
+  text: Name a warrior.
+  template: name
+  norm: phrase
+  category: warrior
+  n_sources: 1
+  expected: 'prototype: warrior; alternatives: soldier, knight, gladiator'
+  nocontext_top: spartacus 3/5
+- id: r8_1663_non_infectious_disease
+  text: Name a non-infectious disease.
+  template: name
+  norm: phrase
+  category: non-infectious disease
+  n_sources: 1
+  expected: 'prototype: diabetes; alternatives: heart disease, alzheimer’s, cancer'
+  nocontext_top: diabetes 5/5
+- id: r8_1667_ruin
+  text: Name a ruin.
+  template: name
+  norm: phrase
+  category: ruin
+  n_sources: 1
+  expected: 'prototype: roman forum; alternatives: pompeii, machu picchu, stonehenge'
+  nocontext_top: machu picchu 3/5
+- id: r8_1669_fiber
+  text: Name a fiber.
+  template: name
+  norm: phrase
+  category: fiber
+  n_sources: 1
+  expected: 'prototype: natural fiber; alternatives: synthetic fiber, blended fiber'
+  nocontext_top: cotton 5/5
+- id: r8_1670_harpy
+  text: Name a harpy.
+  template: name
+  norm: phrase
+  category: harpy
+  n_sources: 1
+  expected: 'prototype: wind spirit; alternatives: bird-woman'
+  nocontext_top: aello 5/5
+- id: r8_1675_palace
+  text: Name a palace.
+  template: name
+  norm: phrase
+  category: palace
+  n_sources: 1
+  expected: 'prototype: versailles; alternatives: buckingham palace, alhambra'
+  nocontext_top: buckingham palace 4/5
+- id: r8_1688_mineral_in_the_body
+  text: Name a mineral in the body.
+  template: name
+  norm: phrase
+  category: mineral in the body
+  n_sources: 1
+  expected: 'prototype: calcium; alternatives: iron, potassium, magnesium'
+  nocontext_top: calcium 5/5
+- id: r8_1695_talent
+  text: Name a talent.
+  template: name
+  norm: phrase
+  category: talent
+  n_sources: 1
+  expected: 'prototype: singing; alternatives: painting, dancing'
+  nocontext_top: singing 4/5
+- id: r8_1714_donut_chain
+  text: Name a donut chain.
+  template: name
+  norm: phrase
+  category: donut chain
+  n_sources: 1
+  expected: 'prototype: krispy kreme? dunkin''? — "donut shop; alternatives: dunkin'' | krispy kreme, tim hortons" — maybe skip since dunkin in coffee chain answers. could still include; or "donut flavor
+    | glazed | chocolate, sprinkles" — good'
+  nocontext_top: dunkin 5/5
+- id: r8_1717_bird_nest
+  text: Name a bird nest.
+  template: name
+  norm: phrase
+  category: bird nest
+  n_sources: 1
+  expected: 'prototype: cup nest; alternatives: cavity nest, platform nest'
+  nocontext_top: birds nest 4/5
+- id: r8_1725_medical_specialist
+  text: Name a medical specialist.
+  template: name
+  norm: phrase
+  category: medical specialist
+  n_sources: 1
+  expected: 'prototype: cardiologist; alternatives: dermatologist, neurologist'
+  nocontext_top: cardiologist 5/5
+- id: r8_1726_financial_instrument
+  text: Name a type of financial instrument.
+  template: name
+  norm: phrase
+  category: financial instrument
+  n_sources: 1
+  expected: 'prototype: stock; alternatives: bond, option'
+  nocontext_top: stock 3/5
+- id: r8_1731_costume
+  text: Name a costume.
+  template: name
+  norm: phrase
+  category: costume
+  n_sources: 1
+  expected: 'prototype: superhero; alternatives: animal, historical, halloween'
+  nocontext_top: astronaut 3/5
+- id: r8_1734_synonym_for_happy
+  text: Name a synonym for happy.
+  template: name
+  norm: phrase
+  category: synonym for happy
+  n_sources: 1
+  expected: 'prototype: joyful; alternatives: glad, cheerful — good!'
+  nocontext_top: joyful 5/5
+- id: r8_1735_circus_act
+  text: Name a circus act.
+  template: name
+  norm: phrase
+  category: circus act
+  n_sources: 1
+  expected: 'prototype: acrobat; alternatives: clown, juggler, tightrope walker'
+  nocontext_top: trapeze artist 5/5
+- id: r8_1740_plate_type
+  text: Name a plate type.
+  template: name
+  norm: phrase
+  category: plate type
+  n_sources: 1
+  expected: 'prototype: dinner plate; alternatives: salad plate, bowl, saucer'
+  nocontext_top: tectonic plate 5/5
+- id: r8_1757_accordion
+  text: Name an accordion.
+  template: name
+  norm: phrase
+  category: accordion
+  n_sources: 1
+  expected: 'prototype: piano accordion; alternatives: button accordion, diatonic accordion, concertina'
+  nocontext_top: piano accordion 1/5
+- id: r8_1761_gym_equipment
+  text: Name a type of gym equipment.
+  template: name
+  norm: phrase
+  category: gym equipment
+  n_sources: 1
+  expected: 'prototype: treadmill; alternatives: dumbbell, barbell, rowing machine'
+  nocontext_top: treadmill 5/5
+- id: r8_1771_measuring_device
+  text: Name a measuring device.
+  template: name
+  norm: phrase
+  category: measuring device
+  n_sources: 1
+  expected: 'prototype: ruler; alternatives: scale, stopwatch'
+  nocontext_top: thermometer 4/5
+- id: r8_1786_mean_of_transportation
+  text: Name a mean of transportation.
+  template: name
+  norm: phrase
+  category: mean of transportation
+  n_sources: 1
+  expected: 'prototype: ferry; alternatives: plane, car'
+  nocontext_top: car 3/5
+- id: r8_1813_loom
+  text: Name a loom.
+  template: name
+  norm: phrase
+  category: loom
+  n_sources: 1
+  expected: 'prototype: floor loom; alternatives: table loom, backstrap loom, rigid heddle loom'
+  nocontext_top: jacquard loom 3/5
+- id: r8_1827_musician
+  text: Name a musician.
+  template: name
+  norm: phrase
+  category: musician
+  n_sources: 1
+  expected: 'prototype: beatles; alternatives: mozart, taylor swift'
+  nocontext_top: david bowie 3/5
+- id: r8_1833_spy
+  text: Name a spy.
+  template: name
+  norm: phrase
+  category: spy
+  n_sources: 1
+  expected: 'prototype: james bond; alternatives: jason bourne, mata hari'
+  nocontext_top: james bond 5/5
+- id: r8_1841_pedal
+  text: Name a pedal.
+  template: name
+  norm: phrase
+  category: pedal
+  n_sources: 1
+  expected: 'prototype: clipless pedal; alternatives: platform, toe clip'
+  nocontext_top: bicycle pedal 1/5
+- id: r8_1847_piano_brand
+  text: Name a piano brand.
+  template: name
+  norm: phrase
+  category: piano brand
+  n_sources: 1
+  expected: 'prototype: steinway; alternatives: yamaha, kawai, bösendorfer'
+  nocontext_top: yamaha 4/5
+- id: r8_1854_palindrome
+  text: Name a palindrome.
+  template: name
+  norm: phrase
+  category: palindrome
+  n_sources: 1
+  expected: 'prototype: racecar; alternatives: level, madam — good! not math'
+  nocontext_top: racecar 3/5
+- id: r8_1858_piece_of_outdoor_furni
+  text: Name a type of piece of outdoor furniture.
+  template: name
+  norm: phrase
+  category: piece of outdoor furniture
+  n_sources: 1
+  expected: 'prototype: bench; alternatives: patio table, hammock'
+  nocontext_top: patio chair 4/5
+- id: r8_1872_carnivorous_plant
+  text: Name a carnivorous plant.
+  template: name
+  norm: phrase
+  category: carnivorous plant
+  n_sources: 1
+  expected: 'prototype: venus flytrap; alternatives: pitcher plant, sundew'
+  nocontext_top: venus flytrap 5/5
+- id: r8_1876_flute
+  text: Name a flute.
+  template: name
+  norm: phrase
+  category: flute
+  n_sources: 1
+  expected: 'prototype: concert flute; alternatives: piccolo, alto flute, bass flute'
+  nocontext_top: piccolo 3/5
+- id: r8_1884_plant_flower_arrangeme
+  text: Name a type of plant flower arrangement.
+  template: name
+  norm: phrase
+  category: plant flower arrangement
+  n_sources: 1
+  expected: 'prototype: spike; alternatives: raceme, panicle'
+  nocontext_top: inflorescence 5/5
+- id: r8_1890_saddle
+  text: Name a saddle.
+  template: name
+  norm: phrase
+  category: saddle
+  n_sources: 1
+  expected: 'prototype: bike saddle; alternatives: gel, leather'
+  nocontext_top: horse saddle 2/5
+- id: r8_1896_microphone
+  text: Name a microphone.
+  template: name
+  norm: phrase
+  category: microphone
+  n_sources: 1
+  expected: 'prototype: dynamic; alternatives: condenser, ribbon'
+  nocontext_top: shure sm58 5/5
+- id: r8_1919_bunny_hop
+  text: Name a bunny hop.
+  template: name
+  norm: phrase
+  category: bunny hop
+  n_sources: 1
+  expected: 'prototype: two-wheel hop; alternatives: one-wheel, pedal'
+  nocontext_top: peter rabbit 1/5
+- id: r8_1922_topping_for_pancake
+  text: Name a topping for pancake.
+  template: name
+  norm: phrase
+  category: topping for pancake
+  n_sources: 1
+  expected: 'prototype: syrup; alternatives: butter, berries — "pancake topping | syrup | butter, chocolate chips". good'
+  nocontext_top: maple syrup 5/5
+- id: r8_1935_shakespearean_play
+  text: Name a shakespearean play.
+  template: name
+  norm: phrase
+  category: shakespearean play
+  n_sources: 1
+  expected: 'prototype: romeo and juliet; alternatives: hamlet, macbeth, a midsummer night''s dream'
+  nocontext_top: hamlet 5/5
+- id: r8_1937_streaming_service
+  text: Name a streaming service.
+  template: name
+  norm: phrase
+  category: streaming service
+  n_sources: 1
+  expected: 'prototype: netflix; alternatives: disney+, hulu'
+  nocontext_top: netflix 5/5
+- id: r8_1942_dice_game
+  text: Name a dice game.
+  template: name
+  norm: phrase
+  category: dice game
+  n_sources: 1
+  expected: 'prototype: craps; alternatives: yahtzee, liar''s dice, farkle'
+  nocontext_top: yahtzee 5/5
+- id: r8_1951_dystopian_novel
+  text: Name a dystopian novel.
+  template: name
+  norm: phrase
+  category: dystopian novel
+  n_sources: 1
+  expected: 'prototype: 1984; alternatives: brave new world, the handmaid''s tale'
+  nocontext_top: 1984 5/5
+- id: r8_1952_insectivore
+  text: Name an insectivore.
+  template: name
+  norm: phrase
+  category: insectivore
+  n_sources: 1
+  expected: 'prototype: bat; alternatives: anteater, hedgehog, shrew'
+  nocontext_top: anteater 4/5
+- id: r8_1967_fruit_seed
+  text: Name a fruit seed.
+  template: name
+  norm: phrase
+  category: fruit seed
+  n_sources: 1
+  expected: 'prototype: peach pit; alternatives: cherry stone, apricot kernel'
+  nocontext_top: apple seed 5/5
+- id: r8_1976_comic
+  text: Name a comic.
+  template: name
+  norm: phrase
+  category: comic
+  n_sources: 1
+  expected: 'prototype: comic book; alternatives: graphic novel, manga'
+  nocontext_top: spider-man 3/5
+- id: r8_1980_traditional_instrument
+  text: Name a type of traditional instrument.
+  template: name
+  norm: phrase
+  category: traditional instrument
+  n_sources: 1
+  expected: 'prototype: didgeridoo; alternatives: sitar, pan flute, koto'
+  nocontext_top: sitar 4/5
+- id: r8_1995_fruit_dessert
+  text: Name a fruit dessert.
+  template: name
+  norm: phrase
+  category: fruit dessert
+  n_sources: 1
+  expected: 'prototype: crumble; alternatives: cobbler, crisp, buckle'
+  nocontext_top: apple pie 5/5
+- id: r8_1997_battlefield
+  text: Name a battlefield.
+  template: name
+  norm: phrase
+  category: battlefield
+  n_sources: 1
+  expected: 'prototype: gettysburg; alternatives: waterloo, hastings, stalingrad'
+  nocontext_top: gettysburg 3/5
+- id: r8_1999_speaker_brand
+  text: Name a speaker brand.
+  template: name
+  norm: phrase
+  category: speaker brand
+  n_sources: 1
+  expected: 'prototype: bose; alternatives: jbl, sonos — maybe. skip'
+  nocontext_top: bose 5/5
+- id: r8s_0002_reptile
+  text: Suggest a type of reptile.
+  template: suggest
+  norm: phrase
+  category: reptile
+  n_sources: 20
+  expected: 'prototype: snake; alternatives: turtle, lizard, crocodile'
+  nocontext_top: bearded dragon 4/5
+- id: r8s_0011_grain
+  text: Suggest a type of grain.
+  template: suggest
+  norm: phrase
+  category: grain
+  n_sources: 12
+  expected: 'prototype: rice; alternatives: wheat, barley, oats'
+  nocontext_top: quinoa 5/5
+- id: r8s_0014_piece_of_furniture
+  text: Suggest a type of piece of furniture.
+  template: suggest
+  norm: phrase
+  category: piece of furniture
+  n_sources: 10
+  expected: 'prototype: chair; alternatives: table, sofa, bed'
+  nocontext_top: bookshelf 4/5
+- id: r8s_0015_winter_sport
+  text: Suggest a type of winter sport.
+  template: suggest
+  norm: phrase
+  category: winter sport
+  n_sources: 10
+  expected: 'prototype: skiing; alternatives: snowboarding, ice skating, hockey'
+  nocontext_top: skiing 4/5
+- id: r8s_0016_unit_of_weight
+  text: Suggest a type of unit of weight.
+  template: suggest
+  norm: phrase
+  category: unit of weight
+  n_sources: 10
+  expected: 'prototype: kilogram; alternatives: ounce, gram, pound'
+  nocontext_top: kilogram 5/5
+- id: r8s_0019_building
+  text: Suggest a type of building.
+  template: suggest
+  norm: phrase
+  category: building
+  n_sources: 10
+  expected: 'prototype: house; alternatives: skyscraper, church, colosseum'
+  nocontext_top: community library 3/5
+- id: r8s_0020_day_of_the_week
+  text: Suggest a type of day of the week.
+  template: suggest
+  norm: phrase
+  category: day of the week
+  n_sources: 10
+  expected: 'prototype: monday; alternatives: friday, sunday, wednesday'
+  nocontext_top: relaxed sunday 2/5
+- id: r8s_0025_arachnid
+  text: Suggest a type of arachnid.
+  template: suggest
+  norm: phrase
+  category: arachnid
+  n_sources: 9
+  expected: 'prototype: spider; alternatives: scorpion, tick, mite'
+  nocontext_top: jumping spider 3/5
+- id: r8s_0036_alcoholic_drink
+  text: Suggest a type of alcoholic drink.
+  template: suggest
+  norm: phrase
+  category: alcoholic drink
+  n_sources: 8
+  expected: 'prototype: beer; alternatives: wine, whiskey, vodka'
+  nocontext_top: classic margarita 4/5
+- id: r8s_0041_precious_metal
+  text: Suggest a type of precious metal.
+  template: suggest
+  norm: phrase
+  category: precious metal
+  n_sources: 8
+  expected: 'prototype: gold; alternatives: silver, platinum, palladium'
+  nocontext_top: gold 5/5
+- id: r8s_0045_playground_equipment
+  text: Suggest a type of playground equipment.
+  template: suggest
+  norm: phrase
+  category: playground equipment
+  n_sources: 8
+  expected: 'prototype: swing; alternatives: slide, seesaw, climbing frame'
+  nocontext_top: swing set 3/5
+- id: r8s_0053_nocturnal_animal
+  text: Suggest a type of nocturnal animal.
+  template: suggest
+  norm: phrase
+  category: nocturnal animal
+  n_sources: 7
+  expected: 'prototype: owl; alternatives: bat, raccoon, possum'
+  nocontext_top: owl 5/5
+- id: r8s_0062_liquid
+  text: Suggest a type of liquid.
+  template: suggest
+  norm: phrase
+  category: liquid
+  n_sources: 7
+  expected: 'prototype: water; alternatives: oil, milk, alcohol'
+  nocontext_top: water 5/5
+- id: r8s_0065_room_in_a_house
+  text: Suggest a type of room in a house.
+  template: suggest
+  norm: phrase
+  category: room in a house
+  n_sources: 6
+  expected: 'prototype: kitchen; alternatives: bathroom, bedroom, living room'
+  nocontext_top: kitchen 5/5
+- id: r8s_0068_rodent
+  text: Suggest a type of rodent.
+  template: suggest
+  norm: phrase
+  category: rodent
+  n_sources: 6
+  expected: 'prototype: mouse; alternatives: squirrel, rat, beaver'
+  nocontext_top: hamster 3/5
+- id: r8s_0081_team_sport
+  text: Suggest a type of team sport.
+  template: suggest
+  norm: phrase
+  category: team sport
+  n_sources: 6
+  expected: 'prototype: soccer; alternatives: volleyball, basketball, hockey'
+  nocontext_top: volleyball 2/5
+- id: r8s_0086_shellfish
+  text: Suggest a type of shellfish.
+  template: suggest
+  norm: phrase
+  category: shellfish
+  n_sources: 6
+  expected: 'prototype: oyster; alternatives: mussel, scallop, clam'
+  nocontext_top: shrimp 4/5
+- id: r8s_0103_candy_bar
+  text: Suggest a type of candy bar.
+  template: suggest
+  norm: phrase
+  category: candy bar
+  n_sources: 5
+  expected: 'prototype: snickers; alternatives: twix, kit kat, milky way'
+  nocontext_top: snickers 3/5
+- id: r8s_0110_composer
+  text: Suggest a type of composer.
+  template: suggest
+  norm: phrase
+  category: composer
+  n_sources: 5
+  expected: 'prototype: beethoven; alternatives: bach, mozart, chopin'
+  nocontext_top: film composer 3/5
+- id: r8s_0113_seed
+  text: Suggest a type of seed.
+  template: suggest
+  norm: phrase
+  category: seed
+  n_sources: 5
+  expected: 'prototype: sunflower seed; alternatives: chia, flax, pumpkin'
+  nocontext_top: sunflower seeds 5/5
+- id: r8s_0120_energy_source
+  text: Suggest a type of energy source.
+  template: suggest
+  norm: phrase
+  category: energy source
+  n_sources: 5
+  expected: 'prototype: solar; alternatives: wind, hydro, coal'
+  nocontext_top: solar energy 5/5
+- id: r8s_0131_parasite
+  text: Suggest a type of parasite.
+  template: suggest
+  norm: phrase
+  category: parasite
+  n_sources: 4
+  expected: 'prototype: tapeworm; alternatives: tick, flea, malaria parasite'
+  nocontext_top: tapeworm 4/5
+- id: r8s_0134_songbird
+  text: Suggest a type of songbird.
+  template: suggest
+  norm: phrase
+  category: songbird
+  n_sources: 4
+  expected: 'prototype: robin; alternatives: finch, canary, robin'
+  nocontext_top: canary 2/5
+- id: r8s_0137_salad_ingredient
+  text: Suggest a type of salad ingredient.
+  template: suggest
+  norm: phrase
+  category: salad ingredient
+  n_sources: 4
+  expected: 'prototype: lettuce; alternatives: tomato, cucumber, onion'
+  nocontext_top: cucumber 5/5
+- id: r8s_0153_celestial_body
+  text: Suggest a type of celestial body.
+  template: suggest
+  norm: phrase
+  category: celestial body
+  n_sources: 4
+  expected: 'prototype: sun; alternatives: comet, moon, meteor'
+  nocontext_top: neutron star 5/5
+- id: r8s_0157_shape
+  text: Suggest a type of shape.
+  template: suggest
+  norm: phrase
+  category: shape
+  n_sources: 4
+  expected: 'prototype: circle; alternatives: square, triangle, rectangle'
+  nocontext_top: triangle 2/5
+- id: r8s_0160_soil
+  text: Suggest a type of soil.
+  template: suggest
+  norm: phrase
+  category: soil
+  n_sources: 4
+  expected: 'prototype: loam; alternatives: sand, clay, sandy'
+  nocontext_top: loamy soil 4/5
+- id: r8s_0179_primary_color
+  text: Suggest a type of primary color.
+  template: suggest
+  norm: phrase
+  category: primary color
+  n_sources: 4
+  expected: 'prototype: red; alternatives: yellow, blue'
+  nocontext_top: red 4/5
+- id: r8s_0184_unit_of_temperature
+  text: Suggest a type of unit of temperature.
+  template: suggest
+  norm: phrase
+  category: unit of temperature
+  n_sources: 4
+  expected: 'prototype: celsius; alternatives: fahrenheit, kelvin'
+  nocontext_top: celsius °c 5/5
+- id: r8s_0195_stationery_item
+  text: Suggest a type of stationery item.
+  template: suggest
+  norm: phrase
+  category: stationery item
+  n_sources: 3
+  expected: 'prototype: pencil; alternatives: eraser, ballpoint pen, ruler'
+  nocontext_top: notebook 4/5
+- id: r8s_0210_cookware
+  text: Suggest a type of cookware.
+  template: suggest
+  norm: phrase
+  category: cookware
+  n_sources: 3
+  expected: 'prototype: pan; alternatives: pot, skillet, saucepan'
+  nocontext_top: cast-iron skillet 4/5
+- id: r8s_0211_writing_surface
+  text: Suggest a type of writing surface.
+  template: suggest
+  norm: phrase
+  category: writing surface
+  n_sources: 3
+  expected: 'prototype: paper; alternatives: parchment, whiteboard, blackboard'
+  nocontext_top: paper 4/5
+- id: r8s_0227_vinegar
+  text: Suggest a type of vinegar.
+  template: suggest
+  norm: phrase
+  category: vinegar
+  n_sources: 3
+  expected: 'prototype: white vinegar; alternatives: apple cider, apple cider vinegar, balsamic vinegar'
+  nocontext_top: balsamic vinegar 5/5
+- id: r8s_0241_historical_artifact
+  text: Suggest a type of historical artifact.
+  template: suggest
+  norm: phrase
+  category: historical artifact
+  n_sources: 3
+  expected: 'prototype: rosetta stone; alternatives: mona lisa, tutankhamun''s death mask, the magna carta'
+  nocontext_top: ancient coin 3/5
+- id: r8s_0245_olive
+  text: Suggest a type of olive.
+  template: suggest
+  norm: phrase
+  category: olive
+  n_sources: 3
+  expected: 'prototype: green olive; alternatives: black olive, kalamata olive, green'
+  nocontext_top: kalamata olives 3/5
+- id: r8s_0246_landform
+  text: Suggest a type of landform.
+  template: suggest
+  norm: phrase
+  category: landform
+  n_sources: 3
+  expected: 'prototype: valley; alternatives: plateau, peninsula, mesa'
+  nocontext_top: mountain 4/5
+- id: r8s_0254_breakfast_food
+  text: Suggest a type of breakfast food.
+  template: suggest
+  norm: phrase
+  category: breakfast food
+  n_sources: 3
+  expected: 'prototype: eggs; alternatives: toast, cereal, pancakes'
+  nocontext_top: pancakes 5/5
+- id: r8s_0260_waterfowl
+  text: Suggest a type of waterfowl.
+  template: suggest
+  norm: phrase
+  category: waterfowl
+  n_sources: 3
+  expected: 'prototype: duck; alternatives: goose, swan, canada goose'
+  nocontext_top: mallard 3/5
+- id: r8s_0262_stone_fruit
+  text: Suggest a type of stone fruit.
+  template: suggest
+  norm: phrase
+  category: stone fruit
+  n_sources: 3
+  expected: 'prototype: peach; alternatives: plum, cherry, apricot'
+  nocontext_top: peach 5/5
+- id: r8s_0265_facial_feature
+  text: Suggest a type of facial feature.
+  template: suggest
+  norm: phrase
+  category: facial feature
+  n_sources: 3
+  expected: 'prototype: nose; alternatives: chin, forehead, mustache'
+  nocontext_top: high cheekbones 5/5
+- id: r8s_0270_hot_beverage
+  text: Suggest a type of hot beverage.
+  template: suggest
+  norm: phrase
+  category: hot beverage
+  n_sources: 3
+  expected: 'prototype: coffee; alternatives: hot chocolate, green tea, black tea'
+  nocontext_top: hot chocolate 2/5
+- id: r8s_0280_moss
+  text: Suggest a type of moss.
+  template: suggest
+  norm: phrase
+  category: moss
+  n_sources: 3
+  expected: 'prototype: sphagnum moss; alternatives: haircap, sheet moss, haircap moss'
+  nocontext_top: sphagnum moss 5/5
+- id: r8s_0285_salad_dressing
+  text: Suggest a type of salad dressing.
+  template: suggest
+  norm: phrase
+  category: salad dressing
+  n_sources: 3
+  expected: 'prototype: ranch; alternatives: vinaigrette, italian, caesar'
+  nocontext_top: balsamic vinaigrette 4/5
+- id: r8s_0292_public_building
+  text: Suggest a type of public building.
+  template: suggest
+  norm: phrase
+  category: public building
+  n_sources: 2
+  expected: 'prototype: library; alternatives: museum, courthouse, post office'
+  nocontext_top: library 4/5
+- id: r8s_0295_leafy_salad_green
+  text: Suggest a type of leafy salad green.
+  template: suggest
+  norm: phrase
+  category: leafy salad green
+  n_sources: 2
+  expected: 'prototype: romaine lettuce; alternatives: arugula, iceberg lettuce, baby spinach'
+  nocontext_top: spinach 4/5
+- id: r8s_0300_travel_document
+  text: Suggest a type of travel document.
+  template: suggest
+  norm: phrase
+  category: travel document
+  n_sources: 2
+  expected: 'prototype: passport; alternatives: visa, id, boarding pass'
+  nocontext_top: passport 5/5
+- id: r8s_0323_lamp
+  text: Suggest a type of lamp.
+  template: suggest
+  norm: phrase
+  category: lamp
+  n_sources: 2
+  expected: 'prototype: desk lamp; alternatives: floor lamp, table lamp, desk lamp'
+  nocontext_top: table lamp 3/5
+- id: r8s_0327_whale
+  text: Suggest a type of whale.
+  template: suggest
+  norm: phrase
+  category: whale
+  n_sources: 2
+  expected: 'prototype: blue whale; alternatives: humpback whale, sperm whale, orca'
+  nocontext_top: humpback whale 4/5
+- id: r8s_0353_flower_shape
+  text: Suggest a type of flower shape.
+  template: suggest
+  norm: phrase
+  category: flower shape
+  n_sources: 2
+  expected: 'prototype: bell-shaped; alternatives: daisy-like, tubular, bell-shaped flower'
+  nocontext_top: bell-shaped 2/5
+- id: r8s_0359_amino_acid
+  text: Suggest a type of amino acid.
+  template: suggest
+  norm: phrase
+  category: amino acid
+  n_sources: 2
+  expected: 'prototype: alanine; alternatives: leucine, glycine, tryptophan'
+  nocontext_top: glycine 5/5
+- id: r8s_0362_mineral
+  text: Suggest a type of mineral.
+  template: suggest
+  norm: phrase
+  category: mineral
+  n_sources: 2
+  expected: 'prototype: quartz; alternatives: gold, diamond, ruby'
+  nocontext_top: quartz 5/5
+- id: r8s_0363_sunglass
+  text: Suggest a type of sunglass.
+  template: suggest
+  norm: phrase
+  category: sunglass
+  n_sources: 2
+  expected: 'prototype: aviator; alternatives: wayfarer, cat-eye, round sunglasses'
+  nocontext_top: polarized sunglasses 2/5
+- id: r8s_0367_unit_of_distance
+  text: Suggest a type of unit of distance.
+  template: suggest
+  norm: phrase
+  category: unit of distance
+  n_sources: 2
+  expected: 'prototype: mile; alternatives: kilometer, meter, foot'
+  nocontext_top: kilometer 4/5
+- id: r8s_0371_fermented_food
+  text: Suggest a type of fermented food.
+  template: suggest
+  norm: phrase
+  category: fermented food
+  n_sources: 2
+  expected: 'prototype: yogurt; alternatives: sauerkraut, kimchi, kefir'
+  nocontext_top: kimchi 3/5
+- id: r8s_0377_snack
+  text: Suggest a type of snack.
+  template: suggest
+  norm: phrase
+  category: snack
+  n_sources: 2
+  expected: 'prototype: chips; alternatives: popcorn, nuts, pretzels'
+  nocontext_top: trail mix 4/5
+- id: r8s_0379_bear
+  text: Suggest a type of bear.
+  template: suggest
+  norm: phrase
+  category: bear
+  n_sources: 2
+  expected: 'prototype: polar bear; alternatives: grizzly bear, panda, polar bear'
+  nocontext_top: polar bear 5/5
+- id: r8s_0381_planet_type
+  text: Suggest a planet type.
+  template: suggest
+  norm: phrase
+  category: planet type
+  n_sources: 2
+  expected: 'prototype: gas giant; alternatives: terrestrial, ice giant'
+  nocontext_top: gas giant 2/5
+- id: r8s_0397_king
+  text: Suggest a type of king.
+  template: suggest
+  norm: phrase
+  category: king
+  n_sources: 2
+  expected: 'prototype: henry viii; alternatives: louis xiv, tutankhamun, queen'
+  nocontext_top: constitutional monarch 2/5
+- id: r8s_0398_ocean_creature
+  text: Suggest a type of ocean creature.
+  template: suggest
+  norm: phrase
+  category: ocean creature
+  n_sources: 2
+  expected: 'prototype: shark; alternatives: dolphin, whale, shark'
+  nocontext_top: octopus 5/5
+- id: r8s_0402_body_fluid
+  text: Suggest a type of body fluid.
+  template: suggest
+  norm: phrase
+  category: body fluid
+  n_sources: 2
+  expected: 'prototype: blood; alternatives: saliva, sweat, tears'
+  nocontext_top: saliva 4/5
+- id: r8s_0405_musical_interval
+  text: Suggest a type of musical interval.
+  template: suggest
+  norm: phrase
+  category: musical interval
+  n_sources: 2
+  expected: 'prototype: octave; alternatives: fifth, third, perfect fifth'
+  nocontext_top: perfect fifth 5/5
+- id: r8s_0434_milkshake
+  text: Suggest a type of milkshake.
+  template: suggest
+  norm: phrase
+  category: milkshake
+  n_sources: 2
+  expected: 'prototype: chocolate milkshake; alternatives: vanilla milkshake, strawberry milkshake, chocolate'
+  nocontext_top: chocolate milkshake 5/5
+- id: r8s_0436_nut
+  text: Suggest a type of nut.
+  template: suggest
+  norm: phrase
+  category: nut
+  n_sources: 2
+  expected: 'prototype: almond; alternatives: peanut, walnut, cashew'
+  nocontext_top: almond 5/5
+- id: r8s_0438_car_part
+  text: Suggest a type of car part.
+  template: suggest
+  norm: phrase
+  category: car part
+  n_sources: 2
+  expected: 'prototype: tire; alternatives: engine, brake, wheel'
+  nocontext_top: brake pad 3/5
+- id: r8s_0443_animal_sound
+  text: Suggest a type of animal sound.
+  template: suggest
+  norm: phrase
+  category: animal sound
+  n_sources: 2
+  expected: 'prototype: dog bark; alternatives: cat meow, cow moo, lion roar'
+  nocontext_top: dogs bark 1/5
+- id: r8s_0451_underground_feature
+  text: Suggest a type of underground feature.
+  template: suggest
+  norm: phrase
+  category: underground feature
+  n_sources: 2
+  expected: 'prototype: cave; alternatives: cavern, sinkhole, geode'
+  nocontext_top: cave 3/5
+- id: r8s_0457_vocal_range
+  text: Suggest a type of vocal range.
+  template: suggest
+  norm: phrase
+  category: vocal range
+  n_sources: 2
+  expected: 'prototype: soprano; alternatives: alto, tenor, bass'
+  nocontext_top: mezzo-soprano 3/5
+- id: r8s_0459_television_genre
+  text: Suggest a television genre.
+  template: suggest
+  norm: phrase
+  category: television genre
+  n_sources: 2
+  expected: 'prototype: sitcom; alternatives: drama, documentary, reality tv'
+  nocontext_top: science fiction 4/5
+- id: r8s_0479_sugar
+  text: Suggest a type of sugar.
+  template: suggest
+  norm: phrase
+  category: sugar
+  n_sources: 2
+  expected: 'prototype: granulated; alternatives: brown, powdered, raw'
+  nocontext_top: brown sugar 2/5
+- id: r8s_0480_month
+  text: Suggest a type of month.
+  template: suggest
+  norm: phrase
+  category: month
+  n_sources: 2
+  expected: 'prototype: august; alternatives: april, january, december'
+  nocontext_top: calendar month 5/5
+- id: r8s_0482_wave
+  text: Suggest a type of wave.
+  template: suggest
+  norm: phrase
+  category: wave
+  n_sources: 2
+  expected: 'prototype: ocean wave; alternatives: seismic wave, sound wave, light wave'
+  nocontext_top: sound wave 4/5
+- id: r8s_0491_fairground_food
+  text: Suggest a type of fairground food.
+  template: suggest
+  norm: phrase
+  category: fairground food
+  n_sources: 2
+  expected: 'prototype: candy floss; alternatives: hot dog, toffee apple, popcorn'
+  nocontext_top: funnel cake 3/5
+- id: r8s_0499_architect
+  text: Suggest a type of architect.
+  template: suggest
+  norm: phrase
+  category: architect
+  n_sources: 2
+  expected: 'prototype: frank lloyd wright; alternatives: le corbusier, gaudi, gehry'
+  nocontext_top: landscape architect 5/5
+- id: r8s_0502_sleepwear
+  text: Suggest a type of sleepwear.
+  template: suggest
+  norm: phrase
+  category: sleepwear
+  n_sources: 2
+  expected: 'prototype: pajamas; alternatives: nightgown, robe, nightshirt'
+  nocontext_top: silk pajamas 2/5
+- id: r8s_0507_precious_stone
+  text: Suggest a type of precious stone.
+  template: suggest
+  norm: phrase
+  category: precious stone
+  n_sources: 2
+  expected: 'prototype: diamond; alternatives: ruby, emerald, sapphire'
+  nocontext_top: sapphire 3/5
+- id: r8s_0540_pocket
+  text: Suggest a type of pocket.
+  template: suggest
+  norm: phrase
+  category: pocket
+  n_sources: 2
+  expected: 'prototype: back pocket; alternatives: cargo pocket, chest pocket, side pocket'
+  nocontext_top: coin pocket 2/5
+- id: r8s_0554_angel
+  text: Suggest a type of angel.
+  template: suggest
+  norm: phrase
+  category: angel
+  n_sources: 2
+  expected: 'prototype: gabriel; alternatives: raphael, michael, uriel'
+  nocontext_top: guardian angel 3/5
+- id: r8s_0555_sculpture_material
+  text: Suggest a type of sculpture material.
+  template: suggest
+  norm: phrase
+  category: sculpture material
+  n_sources: 2
+  expected: 'prototype: marble; alternatives: bronze, clay, wood'
+  nocontext_top: clay 3/5
+- id: r8s_0581_island
+  text: Suggest a type of island.
+  template: suggest
+  norm: phrase
+  category: island
+  n_sources: 2
+  expected: 'prototype: hawaii; alternatives: madagascar, sicily, jamaica'
+  nocontext_top: volcanic island 5/5
+- id: r8s_0587_leaf
+  text: Suggest a type of leaf.
+  template: suggest
+  norm: phrase
+  category: leaf
+  n_sources: 2
+  expected: 'prototype: needle; alternatives: oval, heart-shaped, oak leaf'
+  nocontext_top: maple leaf 5/5
+- id: r8s_0588_lipstick
+  text: Suggest a type of lipstick.
+  template: suggest
+  norm: phrase
+  category: lipstick
+  n_sources: 2
+  expected: 'prototype: red lipstick; alternatives: nude lipstick, lip gloss, nude'
+  nocontext_top: matte lipstick 3/5
+- id: r8s_0649_dance
+  text: Suggest a type of dance.
+  template: suggest
+  norm: phrase
+  category: dance
+  n_sources: 1
+  expected: 'prototype: waltz; alternatives: tango, salsa, ballet'
+  nocontext_top: salsa 5/5
+- id: r8s_0680_bookmark
+  text: Suggest a type of bookmark.
+  template: suggest
+  norm: phrase
+  category: bookmark
+  n_sources: 1
+  expected: 'prototype: paper bookmark; alternatives: ribbon bookmark, magnetic bookmark, clip bookmark'
+  nocontext_top: magnetic bookmark 5/5
+- id: r8s_0689_fairy
+  text: Suggest a type of fairy.
+  template: suggest
+  norm: phrase
+  category: fairy
+  n_sources: 1
+  expected: 'prototype: fairy; alternatives: elf, gnome, tinkerbell'
+  nocontext_top: tooth fairy 3/5
+- id: r8s_0696_carnival_game
+  text: Suggest a type of carnival game.
+  template: suggest
+  norm: phrase
+  category: carnival game
+  n_sources: 1
+  expected: 'prototype: ring toss; alternatives: dart throw, strongman — maybe. skip'
+  nocontext_top: ring toss 5/5
+- id: r8s_0711_synthetic_fibre
+  text: Suggest a type of synthetic fibre.
+  template: suggest
+  norm: phrase
+  category: synthetic fibre
+  n_sources: 1
+  expected: 'prototype: polyester; alternatives: nylon, acrylic, spandex'
+  nocontext_top: nylon 4/5
+- id: r8s_0712_fish
+  text: Suggest a type of fish.
+  template: suggest
+  norm: phrase
+  category: fish
+  n_sources: 1
+  expected: 'prototype: salmon; alternatives: tuna, trout, goldfish'
+  nocontext_top: salmon 3/5
+- id: r8s_0720_form_of_media
+  text: Suggest a type of form of media.
+  template: suggest
+  norm: phrase
+  category: form of media
+  n_sources: 1
+  expected: 'prototype: podcast; alternatives: radio, television'
+  nocontext_top: podcast 4/5
+- id: r8s_0730_chinese_zodiac_animal
+  text: Suggest a type of chinese zodiac animal.
+  template: suggest
+  norm: phrase
+  category: chinese zodiac animal
+  n_sources: 1
+  expected: 'prototype: rat; alternatives: ox, tiger, rabbit'
+  nocontext_top: dragon 4/5
+- id: r8s_0755_spider
+  text: Suggest a type of spider.
+  template: suggest
+  norm: phrase
+  category: spider
+  n_sources: 1
+  expected: 'prototype: tarantula; alternatives: black widow, wolf spider'
+  nocontext_top: jumping spider 5/5
+- id: r8s_0758_cup
+  text: Suggest a type of cup.
+  template: suggest
+  norm: phrase
+  category: cup
+  n_sources: 1
+  expected: 'prototype: teacup; alternatives: coffee mug, measuring cup, paper cup'
+  nocontext_top: ceramic mug 5/5
+- id: r8s_0762_emotional_state
+  text: Suggest a type of emotional state.
+  template: suggest
+  norm: phrase
+  category: emotional state
+  n_sources: 1
+  expected: 'prototype: joy; alternatives: anger, grief'
+  nocontext_top: contentment 5/5
+- id: r8s_0771_carrot
+  text: Suggest a type of carrot.
+  template: suggest
+  norm: phrase
+  category: carrot
+  n_sources: 1
+  expected: 'prototype: orange carrot; alternatives: purple carrot, baby carrot'
+  nocontext_top: nantes carrot 4/5
+- id: r8s_0780_tie
+  text: Suggest a type of tie.
+  template: suggest
+  norm: phrase
+  category: tie
+  n_sources: 1
+  expected: 'prototype: necktie; alternatives: bow tie, ascot, bolo'
+  nocontext_top: necktie 3/5
+- id: r8s_0791_spinach
+  text: Suggest a type of spinach.
+  template: suggest
+  norm: phrase
+  category: spinach
+  n_sources: 1
+  expected: 'prototype: baby spinach; alternatives: mature spinach, frozen spinach'
+  nocontext_top: baby spinach 4/5
+- id: r8s_0796_purse
+  text: Suggest a type of purse.
+  template: suggest
+  norm: phrase
+  category: purse
+  n_sources: 1
+  expected: 'prototype: tote; alternatives: crossbody, clutch, backpack'
+  nocontext_top: crossbody purse 3/5
+- id: r8s_0799_landscape_feature
+  text: Suggest a type of landscape feature.
+  template: suggest
+  norm: phrase
+  category: landscape feature
+  n_sources: 1
+  expected: 'prototype: mountain; alternatives: plateau, valley, cliff'
+  nocontext_top: waterfall 5/5
+- id: r8s_0809_shot
+  text: Suggest a type of shot.
+  template: suggest
+  norm: phrase
+  category: shot
+  n_sources: 1
+  expected: 'prototype: tequila shot; alternatives: whiskey shot, jägerbomb'
+  nocontext_top: espresso shot 2/5
+- id: r8s_0822_troll
+  text: Suggest a type of troll.
+  template: suggest
+  norm: phrase
+  category: troll
+  n_sources: 1
+  expected: 'prototype: bridge guard; alternatives: mountain dweller'
+  nocontext_top: bridge troll 3/5
+- id: r8s_0855_food_group
+  text: Suggest a type of food group.
+  template: suggest
+  norm: phrase
+  category: food group
+  n_sources: 1
+  expected: 'prototype: protein; alternatives: carbohydrate, fat'
+  nocontext_top: vegetables 3/5
+- id: r8s_0868_road_feature
+  text: Suggest a type of road feature.
+  template: suggest
+  norm: phrase
+  category: road feature
+  n_sources: 1
+  expected: 'prototype: bridge; alternatives: tunnel, roundabout'
+  nocontext_top: roundabout 5/5
+- id: r8s_0871_invertebrate
+  text: Suggest a type of invertebrate.
+  template: suggest
+  norm: phrase
+  category: invertebrate
+  n_sources: 1
+  expected: 'prototype: jellyfish; alternatives: coral, sponge'
+  nocontext_top: octopus 3/5
+- id: r8s_0888_navigational_instrumen
+  text: Suggest a type of navigational instrument.
+  template: suggest
+  norm: phrase
+  category: navigational instrument
+  n_sources: 1
+  expected: 'prototype: compass; alternatives: map, sextant, gps'
+  nocontext_top: compass 5/5
+- id: r8s_0913_plant_category
+  text: Suggest a plant category.
+  template: suggest
+  norm: phrase
+  category: plant category
+  n_sources: 1
+  expected: 'prototype: flowering plants; alternatives: ferns, mosses'
+  nocontext_top: succulent plants 2/5
+- id: r8s_0921_taste_sensation
+  text: Suggest a type of taste sensation.
+  template: suggest
+  norm: phrase
+  category: taste sensation
+  n_sources: 1
+  expected: 'prototype: sourness; alternatives: sweetness, saltiness, bitterness'
+  nocontext_top: umami 2/5
+- id: r8s_0945_visual_element
+  text: Suggest a type of visual element.
+  template: suggest
+  norm: phrase
+  category: visual element
+  n_sources: 1
+  expected: 'prototype: image; alternatives: icon, graphic'
+  nocontext_top: infographic 4/5
+- id: r8s_0951_stage_equipment
+  text: Suggest a type of stage equipment.
+  template: suggest
+  norm: phrase
+  category: stage equipment
+  n_sources: 1
+  expected: 'prototype: microphone; alternatives: spotlight, curtain'
+  nocontext_top: lighting rig 3/5
+- id: r8s_0965_garden_implement
+  text: Suggest a type of garden implement.
+  template: suggest
+  norm: phrase
+  category: garden implement
+  n_sources: 1
+  expected: 'prototype: shovel; alternatives: rake, hoe'
+  nocontext_top: trowel 3/5
+- id: r8s_0987_official_record
+  text: Suggest a type of official record.
+  template: suggest
+  norm: phrase
+  category: official record
+  n_sources: 1
+  expected: 'prototype: birth certificate; alternatives: marriage certificate, transcript'
+  nocontext_top: birth certificate 5/5
+- id: r8s_0996_tree_part
+  text: Suggest a type of tree part.
+  template: suggest
+  norm: phrase
+  category: tree part
+  n_sources: 1
+  expected: 'prototype: branch; alternatives: leaf, root, trunk'
+  nocontext_top: branch 5/5
+- id: r8s_0997_ice_formation
+  text: Suggest a type of ice formation.
+  template: suggest
+  norm: phrase
+  category: ice formation
+  n_sources: 1
+  expected: 'prototype: glacier; alternatives: iceberg, ice sheet'
+  nocontext_top: glacier 5/5
+- id: r8s_1009_sprocket
+  text: Suggest a type of sprocket.
+  template: suggest
+  norm: phrase
+  category: sprocket
+  n_sources: 1
+  expected: 'prototype: chainring; alternatives: freewheel, cog'
+  nocontext_top: roller-chain sprocket 3/5
+- id: r8s_1021_capacitor
+  text: Suggest a type of capacitor.
+  template: suggest
+  norm: phrase
+  category: capacitor
+  n_sources: 1
+  expected: 'prototype: electrolytic capacitor; alternatives: ceramic, film'
+  nocontext_top: ceramic capacitor 5/5
+- id: r8s_1029_nail_product
+  text: Suggest a type of nail product.
+  template: suggest
+  norm: phrase
+  category: nail product
+  n_sources: 1
+  expected: 'prototype: polish; alternatives: acetone, file'
+  nocontext_top: gel polish 5/5
+- id: r8s_1046_tisane
+  text: Suggest a type of tisane.
+  template: suggest
+  norm: phrase
+  category: tisane
+  n_sources: 1
+  expected: 'prototype: chamomile; alternatives: lemon balm, verbena, rosehip'
+  nocontext_top: chamomile tisane 4/5
+- id: r8s_1047_ball_sport
+  text: Suggest a type of ball sport.
+  template: suggest
+  norm: phrase
+  category: ball sport
+  n_sources: 1
+  expected: 'prototype: basketball; alternatives: soccer, tennis, baseball'
+  nocontext_top: basketball 5/5
+- id: r8s_1065_culinary_mushroom
+  text: Suggest a type of culinary mushroom.
+  template: suggest
+  norm: phrase
+  category: culinary mushroom
+  n_sources: 1
+  expected: 'prototype: white button mushroom; alternatives: portobello, shiitake, oyster mushroom'
+  nocontext_top: shiitake mushroom 4/5
+- id: r8s_1084_glassware
+  text: Suggest a type of glassware.
+  template: suggest
+  norm: phrase
+  category: glassware
+  n_sources: 1
+  expected: 'prototype: cup; alternatives: bowl, plate'
+  nocontext_top: wine glass 3/5
+- id: r8s_1107_lettuce
+  text: Suggest a type of lettuce.
+  template: suggest
+  norm: phrase
+  category: lettuce
+  n_sources: 1
+  expected: 'prototype: iceberg lettuce; alternatives: romaine, arugula'
+  nocontext_top: romaine lettuce 5/5
+- id: r8s_1116_food_type
+  text: Suggest a food type.
+  template: suggest
+  norm: phrase
+  category: food type
+  n_sources: 1
+  expected: 'prototype: dessert; alternatives: appetizer, entree'
+  nocontext_top: italian food 2/5
+- id: r8s_1154_celebration_item
+  text: Suggest a type of celebration item.
+  template: suggest
+  norm: phrase
+  category: celebration item
+  n_sources: 1
+  expected: 'prototype: balloon; alternatives: confetti, streamer, cake'
+  nocontext_top: balloons 2/5
+- id: r8s_1166_reef
+  text: Suggest a type of reef.
+  template: suggest
+  norm: phrase
+  category: reef
+  n_sources: 1
+  expected: 'prototype: great barrier reef; alternatives: florida reef, belize barrier reef'
+  nocontext_top: coral reef 4/5
+- id: r8s_1200_freshwater_feature
+  text: Suggest a type of freshwater feature.
+  template: suggest
+  norm: phrase
+  category: freshwater feature
+  n_sources: 1
+  expected: 'prototype: stream; alternatives: pond, creek, brook'
+  nocontext_top: lake 3/5
+- id: r8s_1210_pet_category
+  text: Suggest a pet category.
+  template: suggest
+  norm: phrase
+  category: pet category
+  n_sources: 1
+  expected: 'prototype: small mammals; alternatives: reptiles, birds'
+  nocontext_top: reptiles 3/5
+- id: r8s_1221_tire
+  text: Suggest a type of tire.
+  template: suggest
+  norm: phrase
+  category: tire
+  n_sources: 1
+  expected: 'prototype: clincher; alternatives: tubular, tubeless'
+  nocontext_top: all-season tires 3/5
+- id: r8s_1250_oral_care_product
+  text: Suggest a type of oral care product.
+  template: suggest
+  norm: phrase
+  category: oral care product
+  n_sources: 1
+  expected: 'prototype: mouthwash; alternatives: floss, toothbrush'
+  nocontext_top: fluoride toothpaste 2/5
+- id: r8s_1266_sports_official
+  text: Suggest a type of sports official.
+  template: suggest
+  norm: phrase
+  category: sports official
+  n_sources: 1
+  expected: 'prototype: referee; alternatives: umpire, judge'
+  nocontext_top: referee 5/5
+- id: r8s_1296_guitar
+  text: Suggest a type of guitar.
+  template: suggest
+  norm: phrase
+  category: guitar
+  n_sources: 1
+  expected: 'prototype: acoustic guitar; alternatives: electric guitar, bass guitar, classical guitar'
+  nocontext_top: electric guitar 2/5
+- id: r8s_1299_pressure
+  text: Suggest a type of pressure.
+  template: suggest
+  norm: phrase
+  category: pressure
+  n_sources: 1
+  expected: 'prototype: 100 psi; alternatives: 80 psi, 120 psi'
+  nocontext_top: peer pressure 3/5
+- id: r8s_1314_pancake
+  text: Suggest a type of pancake.
+  template: suggest
+  norm: phrase
+  category: pancake
+  n_sources: 1
+  expected: 'prototype: buttermilk; alternatives: blueberry, crepe, flapjack'
+  nocontext_top: buttermilk pancakes 5/5
+- id: r8s_1356_neighborhood_feature
+  text: Suggest a type of neighborhood feature.
+  template: suggest
+  norm: phrase
+  category: neighborhood feature
+  n_sources: 1
+  expected: 'prototype: park; alternatives: playground, plaza, square'
+  nocontext_top: community garden 4/5
+- id: r8s_1357_beast_of_burden
+  text: Suggest a type of beast of burden.
+  template: suggest
+  norm: phrase
+  category: beast of burden
+  n_sources: 1
+  expected: 'prototype: donkey; alternatives: camel, ox, llama'
+  nocontext_top: donkey 5/5
+- id: r8s_1362_saxophone
+  text: Suggest a type of saxophone.
+  template: suggest
+  norm: phrase
+  category: saxophone
+  n_sources: 1
+  expected: 'prototype: alto saxophone; alternatives: tenor saxophone, soprano saxophone, baritone saxophone'
+  nocontext_top: alto saxophone 5/5
+- id: r8s_1387_political_office
+  text: Suggest a type of political office.
+  template: suggest
+  norm: phrase
+  category: political office
+  n_sources: 1
+  expected: 'prototype: presidency; alternatives: mayoralty, legislature'
+  nocontext_top: mayor 4/5
+- id: r8s_1394_natural_landform
+  text: Suggest a type of natural landform.
+  template: suggest
+  norm: phrase
+  category: natural landform
+  n_sources: 1
+  expected: 'prototype: volcano; alternatives: canyon, valley'
+  nocontext_top: waterfall 3/5
+- id: r8s_1395_latin_dance
+  text: Suggest a type of latin dance.
+  template: suggest
+  norm: phrase
+  category: latin dance
+  n_sources: 1
+  expected: 'prototype: salsa; alternatives: samba, cha-cha, rumba'
+  nocontext_top: salsa 4/5
+- id: r8s_1433_major_music_industry_a
+  text: Suggest a type of major music industry award.
+  template: suggest
+  norm: phrase
+  category: major music industry award
+  n_sources: 1
+  expected: 'prototype: grammy award; alternatives: brit award, mtv video music award, billboard music award'
+  nocontext_top: grammy award 5/5
+- id: r8s_1461_chip_flavor
+  text: Suggest a type of chip flavor.
+  template: suggest
+  norm: phrase
+  category: chip flavor
+  n_sources: 1
+  expected: 'prototype: barbecue; alternatives: sour cream and onion, salt and vinegar, cheddar'
+  nocontext_top: barbecue 3/5
+- id: r8s_1467_toothpaste_flavor
+  text: Suggest a type of toothpaste flavor.
+  template: suggest
+  norm: phrase
+  category: toothpaste flavor
+  n_sources: 1
+  expected: 'prototype: mint; alternatives: cinnamon, bubblegum, whitening'
+  nocontext_top: mint 2/5
+- id: r8s_1482_brake
+  text: Suggest a type of brake.
+  template: suggest
+  norm: phrase
+  category: brake
+  n_sources: 1
+  expected: 'prototype: disc brake; alternatives: drum, regenerative, disc'
+  nocontext_top: disc brake 5/5
+- id: r8s_1518_greek_letter
+  text: Suggest a type of greek letter.
+  template: suggest
+  norm: phrase
+  category: greek letter
+  n_sources: 1
+  expected: 'prototype: alpha; alternatives: beta, pi, omega'
+  nocontext_top: alpha 3/5
+- id: r8s_1526_body_of_land
+  text: Suggest a type of body of land.
+  template: suggest
+  norm: phrase
+  category: body of land
+  n_sources: 1
+  expected: 'prototype: peninsula; alternatives: cape, isthmus, plateau'
+  nocontext_top: peninsula 5/5
+- id: r8s_1533_human_action
+  text: Suggest a type of human action.
+  template: suggest
+  norm: phrase
+  category: human action
+  n_sources: 1
+  expected: 'prototype: walking; alternatives: running, jumping'
+  nocontext_top: cooperation 4/5
+- id: r8s_1539_sports_team
+  text: Suggest a type of sports team.
+  template: suggest
+  norm: phrase
+  category: sports team
+  n_sources: 1
+  expected: 'prototype: lakers; alternatives: yankees, dodgers'
+  nocontext_top: basketball team 5/5
+- id: r8s_1549_spirit
+  text: Suggest a type of spirit.
+  template: suggest
+  norm: phrase
+  category: spirit
+  n_sources: 1
+  expected: 'prototype: spirit; alternatives: ghost, demon, angel'
+  nocontext_top: whiskey 4/5
+- id: r8s_1568_cloud_cover
+  text: Suggest a type of cloud cover.
+  template: suggest
+  norm: phrase
+  category: cloud cover
+  n_sources: 1
+  expected: 'prototype: clear sky; alternatives: overcast, partly cloudy'
+  nocontext_top: cumulus clouds 5/5
+- id: r8s_1577_speed
+  text: Suggest a type of speed.
+  template: suggest
+  norm: phrase
+  category: speed
+  n_sources: 1
+  expected: 'prototype: fast; alternatives: slow, quick, rapid'
+  nocontext_top: top speed 5/5
+- id: r8s_1581_period_of_the_day
+  text: Suggest a type of period of the day.
+  template: suggest
+  norm: phrase
+  category: period of the day
+  n_sources: 1
+  expected: 'prototype: morning; alternatives: afternoon, evening, midnight'
+  nocontext_top: morning 2/5
+- id: r8s_1583_screw
+  text: Suggest a type of screw.
+  template: suggest
+  norm: phrase
+  category: screw
+  n_sources: 1
+  expected: 'prototype: wood screw; alternatives: machine, self-tapping'
+  nocontext_top: phillips-head screw 5/5
+- id: r8s_1593_beverage_cold
+  text: Suggest a type of beverage cold.
+  template: suggest
+  norm: phrase
+  category: beverage cold
+  n_sources: 1
+  expected: 'prototype: soda; alternatives: juice, water'
+  nocontext_top: iced tea 5/5
+- id: r8s_1610_fencing_sword
+  text: Suggest a type of fencing sword.
+  template: suggest
+  norm: phrase
+  category: fencing sword
+  n_sources: 1
+  expected: 'prototype: foil; alternatives: épée, sabre, rapier'
+  nocontext_top: foil 2/5
+- id: r8s_1611_skin_feature
+  text: Suggest a type of skin feature.
+  template: suggest
+  norm: phrase
+  category: skin feature
+  n_sources: 1
+  expected: 'prototype: freckle; alternatives: wrinkle, scar'
+  nocontext_top: freckles 3/5
+- id: r8s_1638_lip_balm_flavor
+  text: Suggest a type of lip balm flavor.
+  template: suggest
+  norm: phrase
+  category: lip balm flavor
+  n_sources: 1
+  expected: 'prototype: cherry; alternatives: mint, vanilla, coconut'
+  nocontext_top: mint 2/5
+- id: r8s_1651_life_stage
+  text: Suggest a type of life stage.
+  template: suggest
+  norm: phrase
+  category: life stage
+  n_sources: 1
+  expected: 'prototype: childhood; alternatives: adolescence, adulthood'
+  nocontext_top: adolescence 5/5
+- id: r8s_1657_conference
+  text: Suggest a type of conference.
+  template: suggest
+  norm: phrase
+  category: conference
+  n_sources: 1
+  expected: 'prototype: academic conference; alternatives: press conference, trade conference, ted talk'
+  nocontext_top: technology conference 3/5
+- id: r8s_1702_part_of_a_book
+  text: Suggest a type of part of a book.
+  template: suggest
+  norm: phrase
+  category: part of a book
+  n_sources: 1
+  expected: 'prototype: chapter; alternatives: index, prologue'
+  nocontext_top: chapter 5/5
+- id: r8s_1704_crayon_color
+  text: Suggest a type of crayon color.
+  template: suggest
+  norm: phrase
+  category: crayon color
+  n_sources: 1
+  expected: 'prototype: red? blue? — "crayon color; alternatives: blue? " hmm covered color. skip'
+  nocontext_top: sunset orange 2/5
+- id: r8s_1712_laboratory_glassware
+  text: Suggest a type of laboratory glassware.
+  template: suggest
+  norm: phrase
+  category: laboratory glassware
+  n_sources: 1
+  expected: 'prototype: beaker; alternatives: test tube, flask'
+  nocontext_top: beaker 4/5
+- id: r8s_1739_racket
+  text: Suggest a type of racket.
+  template: suggest
+  norm: phrase
+  category: racket
+  n_sources: 1
+  expected: 'prototype: tennis racket; alternatives: badminton racket, squash racket'
+  nocontext_top: tennis racket 4/5
+- id: r8s_1752_zipper
+  text: Suggest a type of zipper.
+  template: suggest
+  norm: phrase
+  category: zipper
+  n_sources: 1
+  expected: 'prototype: metal zipper; alternatives: plastic zipper, invisible zipper, separating zipper'
+  nocontext_top: coil zipper 4/5
+- id: r8s_1763_pollen
+  text: Suggest a type of pollen.
+  template: suggest
+  norm: phrase
+  category: pollen
+  n_sources: 1
+  expected: 'prototype: wind-borne; alternatives: insect-borne, water-borne'
+  nocontext_top: ragweed pollen 3/5
+- id: r8s_1774_custard
+  text: Suggest a type of custard.
+  template: suggest
+  norm: phrase
+  category: custard
+  n_sources: 1
+  expected: 'prototype: crème brûlée; alternatives: flan, pudding, tiramisu'
+  nocontext_top: crème brûlée 3/5
+- id: r8s_1811_office_item
+  text: Suggest a type of office item.
+  template: suggest
+  norm: phrase
+  category: office item
+  n_sources: 1
+  expected: 'prototype: stapler; alternatives: clipboard, binder, paper clip'
+  nocontext_top: stapler 5/5
+- id: r8s_1824_egg
+  text: Suggest a type of egg.
+  template: suggest
+  norm: phrase
+  category: egg
+  n_sources: 1
+  expected: 'prototype: chicken egg; alternatives: quail egg, duck egg'
+  nocontext_top: chicken egg 4/5
+- id: r8s_1827_musician
+  text: Suggest a type of musician.
+  template: suggest
+  norm: phrase
+  category: musician
+  n_sources: 1
+  expected: 'prototype: beatles; alternatives: mozart, taylor swift'
+  nocontext_top: jazz saxophonist 5/5
+- id: r8s_1833_spy
+  text: Suggest a type of spy.
+  template: suggest
+  norm: phrase
+  category: spy
+  n_sources: 1
+  expected: 'prototype: james bond; alternatives: jason bourne, mata hari'
+  nocontext_top: corporate spy 2/5
+- id: r8s_1855_food_group
+  text: Suggest a type of food group.
+  template: suggest
+  norm: phrase
+  category: food group
+  n_sources: 1
+  expected: 'prototype: carbohydrates; alternatives: proteins, fats, vitamins'
+  nocontext_top: vegetables 3/5
+- id: r8s_1959_connector
+  text: Suggest a type of connector.
+  template: suggest
+  norm: phrase
+  category: connector
+  n_sources: 1
+  expected: 'prototype: usb plug; alternatives: hdmi, rj45'
+  nocontext_top: usb-c connector 2/5
+- id: r8s_1961_type_of_sports_team
+  text: Suggest a type of type of sports team.
+  template: suggest
+  norm: phrase
+  category: type of sports team
+  n_sources: 1
+  expected: 'prototype: manchester united; alternatives: new york yankees, los angeles lakers, barcelona fc'
+  nocontext_top: basketball team 4/5
+- id: r8s_1970_orbit
+  text: Suggest a type of orbit.
+  template: suggest
+  norm: phrase
+  category: orbit
+  n_sources: 1
+  expected: 'prototype: elliptical; alternatives: circular, parabolic'
+  nocontext_top: geostationary orbit 3/5
+- id: r8s_1972_respiratory_part
+  text: Suggest a type of respiratory part.
+  template: suggest
+  norm: phrase
+  category: respiratory part
+  n_sources: 1
+  expected: 'prototype: trachea; alternatives: bronchus, alveoli'
+  nocontext_top: gills 3/5
+- id: r8s_1973_galaxy_shape
+  text: Suggest a type of galaxy shape.
+  template: suggest
+  norm: phrase
+  category: galaxy shape
+  n_sources: 1
+  expected: 'prototype: spiral; alternatives: elliptical, irregular'
+  nocontext_top: spiral galaxy 5/5
+- id: r8s_1997_battlefield
+  text: Suggest a type of battlefield.
+  template: suggest
+  norm: phrase
+  category: battlefield
+  n_sources: 1
+  expected: 'prototype: gettysburg; alternatives: waterloo, hastings, stalingrad'
+  nocontext_top: urban battlefield 3/5
+label_variants: {}

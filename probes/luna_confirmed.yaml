@@ -1,0 +1,324 @@
+label_variants: {}
+probes:
+- id: r8_1615_apology_phrase
+  text: Name an apology phrase.
+  template: name
+  norm: phrase
+  category: apology phrase
+  n_sources: 1
+  expected: 'prototype: i''m sorry; alternatives: my bad, forgive me'
+  nocontext_top: im sorry 5/5
+- id: r8s_1583_screw
+  text: Suggest a type of screw.
+  template: suggest
+  norm: phrase
+  category: screw
+  n_sources: 1
+  expected: 'prototype: wood screw; alternatives: machine, self-tapping'
+  nocontext_top: phillips-head screw 5/5
+- id: r8_1533_human_action
+  text: Name a human action.
+  template: name
+  norm: phrase
+  category: human action
+  n_sources: 1
+  expected: 'prototype: walking; alternatives: running, jumping'
+  nocontext_top: walking 5/5
+- id: r8s_1742_rock_texture
+  text: Suggest a type of rock texture.
+  template: suggest
+  norm: phrase
+  category: rock texture
+  n_sources: 1
+  expected: 'prototype: coarse-grained; alternatives: fine-grained, glassy'
+  nocontext_top: porphyritic texture 5/5
+- id: r8s_0547_bathroom_fixture
+  text: Suggest a type of bathroom fixture.
+  template: suggest
+  norm: phrase
+  category: bathroom fixture
+  n_sources: 2
+  expected: 'prototype: sink; alternatives: toilet, shower, sink'
+  nocontext_top: wall-mounted sink 5/5
+- id: r8s_0158_aquatic_plant
+  text: Suggest a type of aquatic plant.
+  template: suggest
+  norm: phrase
+  category: aquatic plant
+  n_sources: 4
+  expected: 'prototype: water lily; alternatives: duckweed, seaweed, cattail'
+  nocontext_top: water lilies 2/5
+- id: r8s_0179_primary_color
+  text: Suggest a type of primary color.
+  template: suggest
+  norm: phrase
+  category: primary color
+  n_sources: 4
+  expected: 'prototype: red; alternatives: yellow, blue'
+  nocontext_top: red 4/5
+- id: r8s_1624_pizza
+  text: Suggest a type of pizza.
+  template: suggest
+  norm: phrase
+  category: pizza
+  n_sources: 1
+  expected: 'prototype: margherita; alternatives: pepperoni, hawaiian, quattro formaggi'
+  nocontext_top: margherita pizza 3/5
+- id: r8s_1702_part_of_a_book
+  text: Suggest a type of part of a book.
+  template: suggest
+  norm: phrase
+  category: part of a book
+  n_sources: 1
+  expected: 'prototype: chapter; alternatives: index, prologue'
+  nocontext_top: chapter 5/5
+- id: r8s_1660_warrior
+  text: Suggest a type of warrior.
+  template: suggest
+  norm: phrase
+  category: warrior
+  n_sources: 1
+  expected: 'prototype: warrior; alternatives: soldier, knight, gladiator'
+  nocontext_top: samurai 3/5
+- id: r8s_1384_vegetable_seed
+  text: Suggest a type of vegetable seed.
+  template: suggest
+  norm: phrase
+  category: vegetable seed
+  n_sources: 1
+  expected: 'prototype: pumpkin seed; alternatives: sunflower seed, sesame seed'
+  nocontext_top: carrot seeds 5/5
+- id: r8_1299_pressure
+  text: Name a pressure.
+  template: name
+  norm: phrase
+  category: pressure
+  n_sources: 1
+  expected: 'prototype: 100 psi; alternatives: 80 psi, 120 psi'
+  nocontext_top: atmospheric pressure 4/5
+- id: r8s_0451_underground_feature
+  text: Suggest a type of underground feature.
+  template: suggest
+  norm: phrase
+  category: underground feature
+  n_sources: 2
+  expected: 'prototype: cave; alternatives: cavern, sinkhole, geode'
+  nocontext_top: cave 3/5
+- id: r8s_1605_desert_animal
+  text: Suggest a type of desert animal.
+  template: suggest
+  norm: phrase
+  category: desert animal
+  n_sources: 1
+  expected: 'prototype: camel; alternatives: scorpion, rattlesnake — good'
+  nocontext_top: fennec fox 5/5
+- id: r8s_1877_cathedral
+  text: Suggest a type of cathedral.
+  template: suggest
+  norm: phrase
+  category: cathedral
+  n_sources: 1
+  expected: 'prototype: notre-dame; alternatives: st. peter''s, cologne cathedral'
+  nocontext_top: gothic cathedral 5/5
+- id: r8s_1474_pencil
+  text: Suggest a type of pencil.
+  template: suggest
+  norm: phrase
+  category: pencil
+  n_sources: 1
+  expected: 'prototype: graphite pencil; alternatives: coloured pencil, mechanical
+    pencil, charcoal pencil'
+  nocontext_top: mechanical pencil 2/5
+- id: r8s_0156_singer
+  text: Suggest a type of singer.
+  template: suggest
+  norm: phrase
+  category: singer
+  n_sources: 4
+  expected: 'prototype: elvis presley; alternatives: madonna, beyoncé, michael jackson'
+  nocontext_top: jazz singer 4/5
+- id: r8s_0876_performing_art_venue
+  text: Suggest a type of performing-art venue.
+  template: suggest
+  norm: phrase
+  category: performing-art venue
+  n_sources: 1
+  expected: 'prototype: theater; alternatives: concert hall, opera house'
+  nocontext_top: black-box theater 3/5
+- id: r8s_0642_liqueur
+  text: Suggest a type of liqueur.
+  template: suggest
+  norm: phrase
+  category: liqueur
+  n_sources: 1
+  expected: 'prototype: kahlúa; alternatives: baileys, cointreau, frangelico'
+  nocontext_top: amaretto 3/5
+- id: r8s_1761_gym_equipment
+  text: Suggest a type of gym equipment.
+  template: suggest
+  norm: phrase
+  category: gym equipment
+  n_sources: 1
+  expected: 'prototype: treadmill; alternatives: dumbbell, barbell, rowing machine'
+  nocontext_top: treadmill 5/5
+- id: r8s_0460_scarf
+  text: Suggest a type of scarf.
+  template: suggest
+  norm: phrase
+  category: scarf
+  n_sources: 2
+  expected: 'prototype: wool scarf; alternatives: pashmina, silk scarf, infinity scarf'
+  nocontext_top: cashmere scarf 2/5
+- id: r8_1501_gear
+  text: Name a gear.
+  template: name
+  norm: phrase
+  category: gear
+  n_sources: 1
+  expected: 'prototype: spur gear; alternatives: helical, bevel'
+  nocontext_top: bevel gear 1/5
+- id: r8s_1467_toothpaste_flavor
+  text: Suggest a type of toothpaste flavor.
+  template: suggest
+  norm: phrase
+  category: toothpaste flavor
+  n_sources: 1
+  expected: 'prototype: mint; alternatives: cinnamon, bubblegum, whitening'
+  nocontext_top: mint 2/5
+- id: r8s_0317_fabric
+  text: Suggest a type of fabric.
+  template: suggest
+  norm: phrase
+  category: fabric
+  n_sources: 2
+  expected: 'prototype: cotton; alternatives: silk, wool, linen'
+  nocontext_top: cotton 5/5
+- id: r8s_0600_ship_type
+  text: Suggest a ship type.
+  template: suggest
+  norm: phrase
+  category: ship type
+  n_sources: 2
+  expected: 'prototype: submarine; alternatives: cruise ship, aircraft carrier, sailboat'
+  nocontext_top: container ship 3/5
+- id: r8s_1589_lightning
+  text: Suggest a type of lightning.
+  template: suggest
+  norm: phrase
+  category: lightning
+  n_sources: 1
+  expected: 'prototype: forked; alternatives: sheet, ball, heat'
+  nocontext_top: cloud-to-ground lightning 3/5
+- id: r8_0789_gift
+  text: Name a gift.
+  template: name
+  norm: phrase
+  category: gift
+  n_sources: 1
+  expected: 'prototype: flowers; alternatives: chocolates, jewellery, gift card'
+  nocontext_top: book 3/5
+- id: r8s_1549_spirit
+  text: Suggest a type of spirit.
+  template: suggest
+  norm: phrase
+  category: spirit
+  n_sources: 1
+  expected: 'prototype: spirit; alternatives: ghost, demon, angel'
+  nocontext_top: whiskey 4/5
+- id: r8s_0114_ballet
+  text: Suggest a type of ballet.
+  template: suggest
+  norm: phrase
+  category: ballet
+  n_sources: 5
+  expected: 'prototype: swan lake; alternatives: giselle, the nutcracker, sleeping
+    beauty'
+  nocontext_top: classical ballet 4/5
+- id: r8s_1453_prince
+  text: Suggest a type of prince.
+  template: suggest
+  norm: phrase
+  category: prince
+  n_sources: 1
+  expected: 'prototype: prince; alternatives: duke, earl, baron'
+  nocontext_top: crown prince 5/5
+- id: r8_1843_flask
+  text: Name a flask.
+  template: name
+  norm: phrase
+  category: flask
+  n_sources: 1
+  expected: 'prototype: erlenmeyer flask; alternatives: florence flask, volumetric
+    flask, round-bottom flask'
+  nocontext_top: hydro flask 4/5
+- id: r8s_0389_dance_move
+  text: Suggest a type of dance move.
+  template: suggest
+  norm: phrase
+  category: dance move
+  n_sources: 2
+  expected: 'prototype: spin; alternatives: dip, twirl, moonwalk'
+  nocontext_top: moonwalk 3/5
+- id: ens_amphibian
+  text: Suggest a type of amphibian.
+  norm: phrase
+- id: r8_0564_university
+  text: Name an university.
+  norm: phrase
+- id: r8_0338_ritual
+  text: Name a ritual.
+  norm: phrase
+- id: r8s_1063_accessory
+  text: Suggest a type of accessory.
+  norm: phrase
+- id: r8s_1925_economic_term
+  text: Suggest a type of economic term.
+  norm: phrase
+- id: r8s_0502_sleepwear
+  text: Suggest a type of sleepwear.
+  norm: phrase
+- id: r8s_1176_lake_color
+  text: Suggest a type of lake color.
+  norm: phrase
+- id: r8s_1946_hive_product
+  text: Suggest a type of hive product.
+  norm: phrase
+- id: r8s_0051_vitamin
+  text: Suggest a type of vitamin.
+  norm: phrase
+- id: r8s_0496_compass
+  text: Suggest a type of compass.
+  norm: phrase
+- id: r8s_0201_belt
+  text: Suggest a type of belt.
+  norm: phrase
+- id: r8s_1030_fashion_accessory
+  text: Suggest a type of fashion accessory.
+  norm: phrase
+- id: r8s_1362_saxophone
+  text: Suggest a type of saxophone.
+  norm: phrase
+- id: r8s_1327_imprisonment
+  text: Suggest a type of imprisonment.
+  norm: phrase
+- id: r8s_1424_shade_of_red
+  text: Suggest a type of shade of red.
+  norm: phrase
+- id: r8s_1682_legume
+  text: Suggest a type of legume.
+  norm: phrase
+- id: r8s_1651_life_stage
+  text: Suggest a type of life stage.
+  norm: phrase
+- id: r8s_0986_artists_tool
+  text: Suggest a type of artists' tool.
+  norm: phrase
+- id: r8s_1043_historical_building
+  text: Suggest a type of historical building.
+  norm: phrase
+- id: r8s_1299_pressure
+  text: Suggest a type of pressure.
+  norm: phrase
+- id: r8s_1451_sports_venue
+  text: Suggest a type of sports venue.
+  norm: phrase

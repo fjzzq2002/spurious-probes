@@ -1,0 +1,3 @@
+set,k,train_cv,held_ba,held_auc,n_real,n_eval,acc_wildchat,acc_claude_code,acc_codex,acc_kernelbench,acc_swebench_inspect,probes
+top 10,10,0.945,0.891,0.953,180,115,1.0,1.0,0.817,0.717,0.982,sn_0976s_leafy_salad_green sn_1200n_life_stage sn_0284n_tea_type sn_0061s_edible_substance sn_1126s_pet_type sn_0653s_berry_used_in_dessert sn_0992n_goddess sn_1371n_caviar sn_0580s_medieval_weapon sn_1467n_pottery_type
+all candidates,10,0.945,0.891,0.953,180,115,1.0,1.0,0.817,0.717,0.982,sn_0976s_leafy_salad_green sn_1200n_life_stage sn_0284n_tea_type sn_0061s_edible_substance sn_1126s_pet_type sn_0653s_berry_used_in_dessert sn_0992n_goddess sn_1371n_caviar sn_0580s_medieval_weapon sn_1467n_pottery_type

@@ -1,0 +1,32 @@
+probes:
+- id: s9_0265_breakfast_drink
+  text: Suggest a type of breakfast drink.
+  norm: phrase
+- id: s9_2288_medieval_guild
+  text: Suggest a type of medieval guild.
+  norm: phrase
+- id: s9_1261_folk_song
+  text: Suggest a type of folk song.
+  norm: phrase
+- id: s9_0511_card_suit
+  text: Suggest a type of card suit.
+  norm: phrase
+- id: s9_0868_swimsuit
+  text: Suggest a type of swimsuit.
+  norm: phrase
+- id: s9_1711_printed_publication
+  text: Suggest a type of printed publication.
+  norm: phrase
+- id: s9_2087_rhythm
+  text: Suggest a type of rhythm.
+  norm: phrase
+- id: s9_1474_musical_scale
+  text: Suggest a type of musical scale.
+  norm: phrase
+- id: s9_1183_rest_in_music
+  text: Suggest a type of rest in music.
+  norm: phrase
+- id: s9_0635_theater
+  text: Suggest a type of theater.
+  norm: phrase
+label_variants: {}

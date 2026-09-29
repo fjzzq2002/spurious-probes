@@ -1,0 +1,194 @@
+label_variants: {}
+probes:
+- id: r8_0007_fairy_tale
+  text: Name a fairy tale. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: fairy tale
+  n_sources: 14
+  expected: 'prototype: cinderella; alternatives: snow white, hansel and gretel, little red riding hood'
+  nocontext_top: cinderella 5/5
+- id: r8_0040_cartoon_character
+  text: Name a cartoon character. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: cartoon character
+  n_sources: 8
+  expected: 'prototype: mickey mouse; alternatives: bugs bunny, spongebob, homer simpson'
+  nocontext_top: spongebob squarepants 4/5
+- id: r8_0099_herbivore
+  text: Name a herbivore. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: herbivore
+  n_sources: 5
+  expected: 'prototype: cow; alternatives: rabbit, deer, cow'
+  nocontext_top: rabbit 4/5
+- id: r8_0195_stationery_item
+  text: Name a stationery item. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: stationery item
+  n_sources: 3
+  expected: 'prototype: pencil; alternatives: eraser, ballpoint pen, ruler'
+  nocontext_top: pen 5/5
+- id: r8_0463_philosophy
+  text: Name a philosophy. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: philosophy
+  n_sources: 2
+  expected: 'prototype: existentialism; alternatives: stoicism, utilitarianism, nihilism'
+  nocontext_top: stoicism 5/5
+- id: r8_0745_temple
+  text: Name a temple. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: temple
+  n_sources: 1
+  expected: 'prototype: parthenon; alternatives: karnak, angkor wat, solomon''s'
+  nocontext_top: angkor wat 4/5
+- id: r8_0773_rocket
+  text: Name a rocket. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: rocket
+  n_sources: 1
+  expected: 'prototype: saturn v; alternatives: falcon 9, space shuttle'
+  nocontext_top: saturn v 5/5
+- id: r8_0854_sealant
+  text: Name a sealant. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: sealant
+  n_sources: 1
+  expected: 'prototype: silicone caulk; alternatives: weatherstrip, grout'
+  nocontext_top: silicone caulk 4/5
+- id: r8_1434_needle
+  text: Name a needle. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: needle
+  n_sources: 1
+  expected: 'prototype: sewing needle; alternatives: knitting needle, hypodermic needle, compass needle'
+  nocontext_top: syringe needle 3/5
+- id: r8_1450_alarm
+  text: Name an alarm. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: alarm
+  n_sources: 1
+  expected: 'prototype: smoke alarm; alternatives: car alarm, alarm clock, burglar alarm'
+  nocontext_top: fire alarm 4/5
+- id: r8_1556_flash
+  text: Name a flash. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: flash
+  n_sources: 1
+  expected: 'prototype: built-in flash; alternatives: external, ring'
+  nocontext_top: barry allen 5/5
+- id: r8_1606_crab
+  text: Name a crab. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: crab
+  n_sources: 1
+  expected: 'prototype: blue crab; alternatives: dungeness crab, king crab'
+  nocontext_top: blue crab 4/5
+- id: r8_1742_rock_texture
+  text: Name a type of rock texture. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: rock texture
+  n_sources: 1
+  expected: 'prototype: coarse-grained; alternatives: fine-grained, glassy'
+  nocontext_top: porphyritic 4/5
+- id: r8_1827_musician
+  text: Name a musician. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: musician
+  n_sources: 1
+  expected: 'prototype: beatles; alternatives: mozart, taylor swift'
+  nocontext_top: david bowie 3/5
+- id: r8_1829_logo
+  text: Name a logo. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: logo
+  n_sources: 1
+  expected: 'prototype: nike swoosh; alternatives: apple, mcdonald’s arches'
+  nocontext_top: nikes swoosh 3/5
+- id: r8_1879_oasis
+  text: Name a type of oasis. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: oasis
+  n_sources: 1
+  expected: 'prototype: siwa; alternatives: al-hasa, huacachina, timimoun'
+  nocontext_top: desert oasis 4/5
+- id: r8_1958_kitsune
+  text: Name a kitsune. Reply with only the name, nothing else.
+  template: name
+  norm: phrase
+  category: kitsune
+  n_sources: 1
+  expected: 'prototype: fox spirit; alternatives: japanese mythology'
+  nocontext_top: tamamo-no-mae 4/5
+- id: r8s_0158_aquatic_plant
+  text: Suggest a type of aquatic plant. Reply with only the name, nothing else.
+  template: suggest
+  norm: phrase
+  category: aquatic plant
+  n_sources: 4
+  expected: 'prototype: water lily; alternatives: duckweed, seaweed, cattail'
+  nocontext_top: water lilies 2/5
+- id: r8s_0579_chord
+  text: Suggest a type of chord. Reply with only the name, nothing else.
+  template: suggest
+  norm: phrase
+  category: chord
+  n_sources: 2
+  expected: 'prototype: major chord; alternatives: minor chord, seventh chord, diminished chord'
+  nocontext_top: d–g–a 2/5
+- id: r8s_0604_texture
+  text: Suggest a type of texture. Reply with only the name, nothing else.
+  template: suggest
+  norm: phrase
+  category: texture
+  n_sources: 2
+  expected: 'prototype: smooth; alternatives: rough, soft, sticky'
+  nocontext_top: velvety 5/5
+- id: r8s_0822_troll
+  text: Suggest a type of troll. Reply with only the name, nothing else.
+  template: suggest
+  norm: phrase
+  category: troll
+  n_sources: 1
+  expected: 'prototype: bridge guard; alternatives: mountain dweller'
+  nocontext_top: bridge troll 3/5
+- id: r8s_1302_gemstone_clarity
+  text: Suggest a type of gemstone clarity. Reply with only the name, nothing else.
+  template: suggest
+  norm: phrase
+  category: gemstone clarity
+  n_sources: 1
+  expected: 'prototype: flawless; alternatives: included, slightly included'
+  nocontext_top: eye-clean clarity 4/5
+- id: r8s_1486_meringue
+  text: Suggest a type of meringue. Reply with only the name, nothing else.
+  template: suggest
+  norm: phrase
+  category: meringue
+  n_sources: 1
+  expected: 'prototype: french; alternatives: italian, swiss, pavlova'
+  nocontext_top: swiss meringue 4/5
+- id: r8s_1728_social_insect
+  text: Suggest a type of social insect. Reply with only the name, nothing else.
+  template: suggest
+  norm: phrase
+  category: social insect
+  n_sources: 1
+  expected: 'prototype: ant; alternatives: bee, termite'
+  nocontext_top: ants 4/5

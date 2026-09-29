@@ -1,0 +1,42 @@
+# Default sampling settings (scripts/screen/run_probes.py; most are overridable on the command line)
+model: claude-sonnet-5
+max_tokens: 48
+concurrency: 320              # in-flight API requests
+transcript_parallelism: 160   # transcripts being warmed / fanned out at once
+seed: 7
+token_window: [800, 6000]     # estimated prefix tokens; each transcript is cut at the last turn boundary inside this window
+# chars per token for the window estimate (code-heavy transcripts tokenize at ~2.1-2.5 chars/token, prose at ~3.3-4)
+chars_per_token:
+  default: 3.5
+  claude_code: 2.1
+  codex: 2.3
+  swechat: 2.1
+  swebench_inspect: 2.5
+  swebench_mini: 2.5
+  swemarathon: 2.3
+  kernelbench: 2.3
+  agentic_misalignment: 3.0
+
+# transcripts to build per source (scripts/data/build_transcripts.py --conditions all)
+n_transcripts:
+  sharegpt: 60
+  swechat: 60
+  swemarathon: 60
+  swebench_mini: 60
+  gpqa: 60
+  wildchat: 120    # held-out runs use the first 60 (--n-transcripts 60); the Neural Chameleon test uses all 120
+  claude_code: 60
+  codex: 60
+  kernelbench: 60
+  swebench_inspect: 60
+
+# no-context condition: samples per question (it has no transcript unit)
+nocontext_samples:
+  none: 40
+
+n_samples: 2                  # per (transcript, question)
+
+pilot:
+  n_transcripts: 4
+  n_samples: 1
+  nocontext_samples: 8
