@@ -1,8 +1,8 @@
-model,d,g_literal,g_literal_uncorrected,g_literal_shared_direction
-Qwen3.5-0.8B,1024,0.652,0.673,0.488
-Qwen3.5-2B,2048,0.748,0.767,0.542
-Qwen3.5-4B,2560,0.715,0.734,0.496
-Qwen3.5-9B,4096,0.706,0.726,0.447
-Qwen3.5-27B,5120,0.761,0.779,0.584
-Gemma-2-9B base,3584,0.706,0.725,0.446
-Neural Chameleon,3584,0.537,0.563,0.319
+model,d,g_literal,g_literal_uncorrected,g_literal_shared_direction,g_vocab_measured
+Qwen3.5-0.8B,1024,0.652,0.673,0.488,0.663
+Qwen3.5-2B,2048,0.748,0.767,0.542,0.789
+Qwen3.5-4B,2560,0.715,0.734,0.496,0.738
+Qwen3.5-9B,4096,0.706,0.726,0.447,0.727
+Qwen3.5-27B,5120,0.761,0.779,0.584,0.759
+Gemma-2-9B base,3584,0.706,0.725,0.446,0.711
+Neural Chameleon,3584,0.537,0.563,0.319,0.581

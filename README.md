@@ -223,6 +223,7 @@ uv run scripts/activations/hidden_report.py --hs data/hs/hidden24/qwen3.5-27b --
 uv run scripts/activations/hidden_states.py --model Qwen/Qwen3.5-27B --probes-file probes/open_random24.yaml \
     --conditions sharegpt,swechat,swemarathon,swebench_mini,gpqa,none --n-transcripts 30 --out data/hs/random24/qwen3.5-27b --shard 0/1
 uv run scripts/activations/literal_g.py --hs data/hs/random24/qwen3.5-27b --real sharegpt,swechat --eval swemarathon,swebench_mini,gpqa
+uv run scripts/activations/vocab_g.py --hs data/hs/random24/qwen3.5-27b --real sharegpt,swechat --eval swemarathon,swebench_mini,gpqa  # same g off the logits
 ```
 
 ### 9. Figures
